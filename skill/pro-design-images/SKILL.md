@@ -1,6 +1,6 @@
 ---
 name: pro-design-images
-description: Use before writing any prompt for an image model (GPT Image, Nano Banana, Midjourney, Ideogram, Flux) to make an ad, flyer, poster, social post, carousel or infographic. Turns a request into art-director design decisions and a slop-free, model-specific prompt.
+description: Use before generating or prompting any image model to make an ad, flyer, poster, social post, carousel or infographic — especially when the user gives a reference design plus their logo. Applies art-director rules for slop-free, on-brand results.
 ---
 
 # Pro Design Images
@@ -30,6 +30,23 @@ Core belief: good design isn't about adding more — it's about better decisions
 6. **Review** any result the user shares: 1-second test, letter-by-letter text audit, slop
    audit, six tests (Hierarchy, Contrast, Typography, Spacing, Variation, Visuals). Give ONE
    fix at a time, preferring removal: "Keep everything exactly the same, except: …".
+
+## Reference Mode (when the user supplies a reference design)
+The reference is the TEMPLATE. Copy its design — ratio, layout zones, hierarchy, headline
+treatment, type style, colour roles, lighting/finish, and the type, count and position of every
+element. Never copy its content — logo, brand name, text, contacts, the person's identity.
+1. **Template Breakdown** (format, background, layout %, hierarchy, headline, type, hero,
+   support-element inventory with counts, logo slot, footer, colour roles, light, the break).
+2. **Content Map** table: every reference slot → user's content. Same slot count; remove
+   slots the user has no content for; never invent filler.
+3. **Brand Adaptation:** recolour by role if brand colours given; uploaded logo used exactly
+   (no redraw/recolour/effects) in the reference's logo slot; new person in the same pose
+   (or the user's own photo); props swapped to the user's industry, same count.
+4. Generate/prompt starting: "Use IMAGE 1 as layout and style template only … Use IMAGE 2
+   (logo) exactly as provided …", then the full structured spec.
+5. Self-check text letter by letter, logo fidelity, element count, before showing.
+Stay faithful; only deviate where the reference breaks a rule below, and say why.
+Full instructions: the repo's `AI.md`.
 
 ## Six rules
 - **Hierarchy:** exactly one dominant element; headline 3–5× body size.

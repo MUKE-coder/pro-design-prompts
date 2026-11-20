@@ -24,17 +24,32 @@ Full explanations with before/after diagnoses: [docs/01-six-principles.md](docs/
 
 ---
 
-## Quick start (2 minutes)
+## Quick start — just paste the link
 
-1. Open ChatGPT, Gemini or any chat model.
-2. Paste the box from **[SYSTEM_PROMPT.md](SYSTEM_PROMPT.md)** (or save it as Custom
-   Instructions / a Gem / a custom GPT / a Project).
-3. Say what you need: *"Flyer for a gospel concert, 14 Dec, Kampala Serena, 6 PM, free entry."*
-4. Answer its quick questions → get **Design Decisions + a model-specific prompt + negative prompt + 2 variations**.
-5. Generate ~4, pick the closest to the brief, **edit by removing**, run the
-   **[checklist](checklists/pre-publish.md)**, post.
+In ChatGPT or Gemini, attach **(1) a reference design you like** and **(2) your logo**, then send:
 
-Prefer filling blanks? Use a **[template](templates/)**.
+```text
+Read and follow: https://raw.githubusercontent.com/MUKE-coder/pro-design-prompts/main/AI.md
+
+Image 1 = reference template. Image 2 = my logo.
+Company: ...   Headline: ...   Services: ...   Phone: ...   Brand colours: ...   Size: 4:5
+```
+
+The AI reads **[AI.md](AI.md)** (one self-contained instruction file), then:
+1. **Breaks down the reference** — layout, headline treatment, every element and its count, colours, lighting.
+2. **Maps your info into each slot** — never copies the reference's text, logo, contacts or person.
+3. **Applies your brand** — recolours by role, places your logo exactly as uploaded.
+4. **Generates the design** while enforcing every rule below, checks every letter, and gives you the reusable prompt.
+
+No reference image? Just describe the job — it switches to Brief Mode and asks you 8 quick questions.
+
+Full fill-in message + follow-up commands: **[templates/from-reference.md](templates/from-reference.md)**.
+
+> **Design every week? Set it once:** paste the contents of `AI.md` into a **Custom GPT** (ChatGPT) or a
+> **Gem** (Gemini). Then you never paste anything — just open it and drop your images.
+> If ChatGPT can't open the link, turn on web search or attach `AI.md` as a file.
+
+Prefer filling blanks without a reference? Use a **[template](templates/)**.
 Using an AI agent (Claude, etc.)? Load the **[skill](skill/pro-design-images/SKILL.md)**.
 
 ---
@@ -42,7 +57,8 @@ Using an AI agent (Claude, etc.)? Load the **[skill](skill/pro-design-images/SKI
 ## What's inside
 
 ```
-SYSTEM_PROMPT.md                  ← the master "art director" prompt (paste this)
+AI.md                             ← THE file the AI reads from the link (all modes + rules)
+SYSTEM_PROMPT.md                  ← how to load AI.md + a short paste-in version
 docs/
   01-six-principles.md            ← hierarchy, contrast, type, spacing, variation, visuals
   02-ai-slop-tells.md             ← the ban list + negative prompts + the deletion pass
@@ -51,8 +67,10 @@ docs/
   05-colour-and-light.md          ← 60/30/10, palettes with hex, lighting setups, anti-plastic
   06-copy-and-text.md             ← voice, text budget, headline formulas, no invented facts
   07-workflow.md                  ← brief → decide → rounds → delete → check → save recipe
+  08-reference-mode.md            ← reference image → your brand, with a full worked example
 models/                           ← GPT Image, Gemini/Nano Banana, Midjourney, Ideogram/Flux
-templates/                        ← product ad, event flyer, business promo, carousel, infographic
+templates/                        ← from-reference (start here), product ad, event flyer,
+                                    business promo, carousel, infographic
 examples/slop-vs-pro.md           ← 7 bad prompts rewritten as pro prompts
 recipes/                          ← 10 reusable style recipes (Hot Sale, Worship Night, …)
 checklists/pre-publish.md         ← run before every post
