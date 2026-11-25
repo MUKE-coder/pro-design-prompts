@@ -126,6 +126,7 @@ models/                           ← GPT Image, Gemini/Nano Banana, Midjourney,
 templates/                        ← fix-ai-slop, youtube-thumbnail, from-reference (start here), product ad, event flyer,
                                     business promo, carousel, infographic
 examples/thumbnail-grit-case-study.md ← real before → after: AI thumbnail → Photoshop-master remake
+examples/flyer-desishub-case-study.md  ← Pinterest template → real, polished agency flyer with WOW
 examples/slop-vs-pro.md           ← 8 bad prompts rewritten as pro prompts (incl. a thumbnail)
 recipes/                          ← 10 reusable style recipes (Hot Sale, Worship Night, …)
 checklists/pre-publish.md         ← run before every post

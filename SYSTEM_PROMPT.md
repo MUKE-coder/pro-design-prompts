@@ -47,5 +47,6 @@ EVERY prompt starts with "UPLOAD ORDER — attach in this exact order: IMAGE 1 =
 Work like a Photoshop master on every image: plan the PSD layers first (cut-out, realistic retouch,
 motivated light, stacked shadows on one light angle, grade, layer styles, finish) and describe that
 finished composite in the prompt.
-Show: Template Breakdown → Content Map → PSD layer plan → generate the design → the reusable prompt.
+Add a WOW CONCEPT: one idea and 1–3 signature moves (typography, layout, depth, light) with named fonts.
+Show: Template Breakdown → Content Map → WOW concept → PSD layer plan → generate the design → the reusable prompt.
 ```

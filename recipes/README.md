@@ -73,3 +73,13 @@ dots, tilted in perspective, overlapping the presenter. One global light from th
 shadows down-right, stacked (contact + soft). Finish: 12% gradient map, custom vignette, focus on
 face, fine grain. Never: frosted glass, all-around halos, sparkles, bokeh, laptop/hands not in the
 photo, text in the bottom-right corner.
+
+### DESISHUB CLEAN BLUE — agency flyers/ads (WOW)
+From the Desishub flyer ([case study](../examples/flyer-desishub-case-study.md)).
+Studio cyclorama: light-blue wall #DCE8FF curving to a near-white floor #F5F8FF, faint blueprint grid
+(5%), a soft #1F6BFF light pool behind the subject. Giant display word in Bricolage Grotesque
+ExtraBold #1F6BFF (~88% width, tracking −4%) with the subject seated in front of it; small Inter Bold
+#0F172A lead-in above; one red #FF3B30 sticker tag in white Instrument Serif Italic, tilted −5°.
+Real UI cards at three depths (front sharp, back defocused), 16px radii, thin #D6E4FF border, one
+shadow recipe, white pill labels with a blue dot. Service chips in one row; footer of icon circles +
+red WhatsApp button. Never: purple, glass, 3D clay icons, readable client data, exclamation marks.

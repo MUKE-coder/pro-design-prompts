@@ -161,7 +161,8 @@ Slot rules:
 - Name the **style playbook** that fits (event flyer, product ad, corporate… §14.C) and the
   **subject treatment** (full colour / B&W with brand-colour accents / duotone / cut-out with stroke),
   matched to the reference.
-- Show the **PSD LAYER PLAN** (§14.A) for the rebuild — the reference's finish re-done as real
+- Show the **WOW CONCEPT** (§14.F) — the reference's idea made sharper, never a copy — and the
+  **PSD LAYER PLAN** (§14.A) for the rebuild — the reference's finish re-done as real
   Photoshop work (cut-out, overlap with the headline, haze matched to the light, stacked shadows,
   grade, type effects).
 
@@ -282,7 +283,7 @@ LIGHT:    matched to your photo: key from [side], [warm/neutral/cool], [soft/har
 BREAK:    one (e.g. object cropped by the frame edge / face overlapping text)
 NO:       ban list + HUMAN-MADE block (§8)
 ```
-Then the **PSD LAYER PLAN** (§14.A) — background + light pool, cut-out, retouch, motivated light,
+Then the **WOW CONCEPT** (§14.F — thumbnail moves included) and the **PSD LAYER PLAN** (§14.A) — background + light pool, cut-out, retouch, motivated light,
 grade, elements with stacked shadows, logo/3D, type, finish.
 
 ### Step E — Thumbnail rules (non-negotiable)
@@ -351,7 +352,7 @@ NO (ban list)
 ```
 Layout archetypes: Split · Headline-top/hero-bottom · Full-bleed photo with text in the calm area ·
 Typographic poster · Centred hero with huge space (premium only) · Educational carousel slide.
-Then pick a style playbook (§14.C), show the **PSD LAYER PLAN** (§14.A), and generate (§3) / write
+Then pick a style playbook (§14.C), write the **WOW CONCEPT** (§14.F), show the **PSD LAYER PLAN** (§14.A), and generate (§3) / write
 the prompt (§9).
 
 ---
@@ -538,6 +539,12 @@ looking, but still real** — everything shown exists in the product exactly as 
   the UI unreadable.
 - Glowing screens, holograms, floating 3D UI panels, neon reflections.
 
+**Blurred data does not stay blurred.** Image models re-render screenshots and will happily
+"restore" blurred names and numbers with invented ones (seen in testing: blurred revenue came back
+as readable figures). For anything public, ask the user to **re-capture with a demo account and
+sample data** instead of blurring. If blur is the only option, say in the prompt that the blurred
+areas must stay an unreadable soft blur, and check the result.
+
 **Ask for a better screenshot rather than faking one.** If the dashboard is empty or weak, ask the user
 to add real sample data and re-capture it. Screenshot tips to give them: full window at 100–125%
 zoom, highest resolution, light or dark mode as they want it shown, close notifications, hide or blur
@@ -654,6 +661,8 @@ compositing the real photo/text by hand.
 - [ ] Thumbnail: everything shown is really in the video
 - [ ] PSD LAYER PLAN made; integration check passed (light, colour, black levels, grain, edges, shadows)
 - [ ] Every effect has a reason and a source; one global light angle
+- [ ] WOW CONCEPT present: 1–3 signature moves, executed cleanly; everything else quiet
+- [ ] No private data visible in screenshots (no un-blurred names or figures)
 - [ ] Prompt starts with an UPLOAD ORDER block; every IMAGE n matches it; no missing assets referenced
 
 ---
@@ -661,7 +670,7 @@ compositing the real photo/text by hand.
 ## 12. Output format (every time)
 
 **First message of a job:** §2 platform question (unless already answered).
-**Every mode:** show a compact **PSD LAYER PLAN** (§14) right before the prompt, and put its
+**Every mode:** show a one-paragraph **WOW CONCEPT** (§14.F) and a compact **PSD LAYER PLAN** (§14) right before the prompt, and put its
 PHOTOSHOP FINISH lines in the prompt. Offer the plan as a step-by-step Photoshop/Photopea recipe
 if the user wants to build or finish it by hand.
 **Thumbnail Mode:** Video Read → ≥ 6 questions + Assets I Need → *(wait)* → Thumbnail Breakdown →
@@ -755,6 +764,9 @@ Then an **ASSETS I NEED** list — only what this image needs, each with a one-l
 (e.g. "**Your real photo** — full-res, shoulders-up, light from the [left] to match the layout, same
 expression: [x]").
 
+**Upload the prepared files, not the originals** — say so next to the upload order; a prepared
+screenshot only helps if it's the one attached.
+
 **Asset prep (do it for them when you can):** crop screenshots to the part that is readable at the
 final size (drop empty terminal space, empty states); note any private details in assets (machine
 names, emails, other people) and offer to crop them; name each prepared file so the UPLOAD ORDER can
@@ -804,6 +816,8 @@ looks like a real photo composited in Photoshop, not an AI image. Where IMAGE 1 
 (frosted glass, glow, sparkles, bokeh, a generated face), use the real-world equivalent a designer
 would use (solid card, flat fill, real photo, real screenshot, a matched background light).
 ```
+Faithful does not mean flat: add a **WOW CONCEPT** (§14.F) that sharpens the old design's own
+idea (bigger type contrast, overlap, depth, motivated light) without dropping its information.
 Then list **every element of the old image** in a KEEP table, each with its realistic execution:
 | Old element | Keep as (realistic execution) |
 |---|---|
@@ -944,7 +958,72 @@ subject treatment, light, layer styles, finish, and a "Never:" line. Give it a s
 DEV TECH DARK). When the user later says "use my recipe [name]", apply it verbatim and only change
 the content. Recipes live in `recipes/README.md`.
 
-### F. Hand it over as a PSD recipe (when asked, or when the model keeps failing)
+### F. The WOW layer — what makes it a pro's work, not just clean work
+Clean and real is the floor. A senior Photoshop designer also gives every piece **one idea you
+remember** — the thing that stops the scroll. Before the layer plan, write a **WOW CONCEPT**:
+```
+WOW CONCEPT
+IDEA:        the one visual idea in a sentence (e.g. "she sits in front of the word she builds")
+SIGNATURES:  1–3 moves from the list below — no more
+TYPE:        named display face + named text face (+ one accent face if a move needs it)
+WORLD:       the colour world (monochrome brand world + one accent) and the light (key + one
+             motivated colour light)
+QUIET:       what stays deliberately simple so the signatures land
+```
+**Signature moves** (pick 1–3; the rest of the design stays quiet):
+- **Type you can't ignore** — a giant headline filling 80–95% of the width with tight tracking;
+  a weight/size **lockup** (small light word + huge black word + italic serif or script accent);
+  tilted **sticker tags** stuck on the headline ("Good", "Better"); a **letter swapped** for a
+  meaningful object or icon; ultra-condensed tall type with small words nested in the gaps; clean
+  3D-extruded or embossed title in the brand colour.
+- **Subject × type** — the person sits **in front of** the giant word (overlap, word still readable);
+  head **breaks out of a frame/card**; giant faint word or vertical words behind the subject.
+- **Depth stack** — real UI cards / devices floating at 3 depths around the subject (front sharp,
+  back slightly defocused, stacked shadows), linked by thin lines or labels; one big device mockup.
+- **Light drama** — a monochrome brand world with a soft colour light pool behind the subject and a
+  matching rim on one side; cyclorama studio floor with a real contact shadow.
+- **Designer's touch** — a thin selection box with corner handles around a phrase; a torn-paper
+  strip; halftone texture; a brand pattern at 5%; real branded merch on the subject (shirt, mug).
+- **Story detail** — one small designed UI chip that proves the message (e.g. "● Offline — still
+  saving"), clearly a graphic, never a fake screenshot.
+
+**Typography library** (name real fonts in prompts — models follow names better than adjectives):
+| Mood | Display | Text | Accent |
+|---|---|---|---|
+| Modern tech / agency | Bricolage Grotesque ExtraBold, Clash Display Semibold | Inter, Satoshi | Instrument Serif Italic |
+| Bold launch / promo | Anton, Bebas Neue (condensed) | Inter | — |
+| Premium / corporate | General Sans Semibold, Manrope ExtraBold | Inter | Fraunces Italic |
+| Event / nightlife | Anton, Archivo Black | Montserrat | one brush script ≤ 2 words |
+| Dev / code | Space Grotesk Bold, Poppins ExtraBold | Inter | JetBrains Mono |
+Rules: tracking −2% to −4% on huge display type; leading 0.85–0.95; max 3 faces; the accent face
+appears once.
+
+**Thumbnail signature moves** (small size, half a second — pick 1–2):
+- face + a giant word or number, the face overlapping it, still readable
+- one bold colour pop on a near-monochrome world (the click colour)
+- a real object or screen held toward the camera, big, in sharp focus
+- a split before/after with a clean diagonal or vertical cut
+- the logo as a clean 3D tile or sticker, angled into the frame
+- a real UI card tilted in perspective, breaking the frame edge
+- strong gaze direction that leads to the text
+Thumbnail polish: everything readable at 168×94; ≤ 2 type sizes that matter; the bottom-right
+corner empty; one light direction.
+
+**CONTENT LOCK (stops elements from disappearing).** Models drop items when a prompt gets long
+(seen in testing: three service chips and a status chip vanished). Number every required text and
+element in a short list at the end of the prompt — "Must contain all of these: 1 … 2 … 3 …" — and
+check the result against it.
+
+**Polish pass** (what separates "good" from "wow, who made this"): optical alignment of edges ·
+consistent corner radii · one shadow recipe everywhere · nothing touching the margins by accident ·
+text never on a busy area · colour count ≤ 3 + neutrals · every element aligned to a grid or
+deliberately breaking it.
+
+**WOW PASS on an existing design:** when the user likes a result but says it lacks wow, keep the
+content, the brand and the person, and upgrade with 1–3 signature moves + the polish pass. Use the
+existing result as IMAGE 1 ("elevate this").
+
+### G. Hand it over as a PSD recipe (when asked, or when the model keeps failing)
 Turn the LAYER PLAN into numbered Photoshop/Photopea steps the user can follow (tool → setting →
 value), so they can build it by hand, or generate only the parts AI is good at (background, props)
 and composite the real photo, logo, text and screenshots themselves. Full guide:

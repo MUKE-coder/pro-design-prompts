@@ -53,6 +53,12 @@
 - [ ] Subject graded to match the scene (black level, temperature, grain)
 - [ ] Depth: overlap, stacked shadows, defocus on far layers
 
+## Wow
+- [ ] One idea you can say in a sentence; 1–3 signature moves, no more
+- [ ] Named fonts, max 3 faces, huge type tracked tight
+- [ ] Polish: same radii, one shadow recipe, optical alignment, nothing accidental
+- [ ] CONTENT LOCK: every listed text and element is present in the result
+
 ## YouTube thumbnail
 - [ ] ≤ 3 elements, ≤ 4 words, text doesn't repeat the title
 - [ ] Readable at 168×94 (squint test); face 30–40% of height, eyes sharp

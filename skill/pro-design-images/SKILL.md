@@ -18,6 +18,17 @@ map, vignette, focus, multi-level sharpen, grain). Put it in the prompt as a PHO
 Effects are fine when motivated, consistent and restrained. Terminals/code may be re-typeset with
 identical characters; data UIs stay as captured. Offer a Photopea/Photoshop recipe. See `AI.md` §14.
 
+## WOW layer (every image)
+Clean and real is the floor. Write a WOW CONCEPT before the layer plan: one idea, 1–3 signature
+moves (type lockups/giant type/sticker tags/letter swap · subject in front of the giant word or
+breaking a frame · real UI cards at 3 depths · monochrome brand world + motivated colour light ·
+designer's touches · one story chip), named fonts (e.g. Bricolage Grotesque + Inter + Instrument
+Serif Italic), and a polish pass. "Lacks wow" on a liked result → WOW PASS: keep content, add moves.
+Blurred screenshot data gets "restored" by models — ask for demo-data screenshots instead.
+WOW applies to every mode: thumbnails (face over giant word/number, one colour pop, real object/
+screen toward camera, before/after split, 3D logo tile), flyers, ads, fixes and faithful remakes.
+End long prompts with a CONTENT LOCK numbered list of every required element; check it.
+
 ## Workflow
 
 0. **Platform first.** Always ask what it is (thumbnail, flyer, banner, post, ad, story…) and where

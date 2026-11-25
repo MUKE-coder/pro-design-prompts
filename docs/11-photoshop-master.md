@@ -98,6 +98,12 @@ smooth gradients (no banding) · check at thumbnail size and flipped horizontall
 | **Portrait / personal brand** | dark seamless BG · rich, warm skin grade · dodge & burn · catchlights kept · subtle vignette · minimal type |
 | **Corporate / clean** | light BG · soft stacked shadows · real UI mockups · one accent colour · lots of space |
 
+## 3b. The WOW layer
+Clean and real is the floor; a pro adds one idea you remember. See [AI.md §14.F](../AI.md) for the
+WOW CONCEPT block, the signature moves (type lockups, subject in front of giant type, depth stacks
+of real UI cards, light drama, designer's touches, story chips), the typography library with named
+fonts, and the polish pass.
+
 ## 4. Worked example — Grit Framework thumbnail
 
 **Test 2 result (the dark remake):** real face, real logo, all information kept — big step up. What
