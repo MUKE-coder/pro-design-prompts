@@ -7,12 +7,16 @@ Image models don't know grids — so you describe the grid in plain words and po
 
 ## 1. Formats (set this first — it changes everything)
 
+The AI always asks **what you're making and where you'll post it** before designing. The full
+platform table with safe zones is in [AI.md §2](../AI.md).
+
 | Placement | Ratio | Pixels (typical) | Detail level |
 |---|---|---|---|
 | Instagram / Facebook feed | **4:5** | 1080×1350 | Medium — must read at thumbnail size |
 | Instagram square | 1:1 | 1080×1080 | Medium |
 | Story / Reel / WhatsApp Status / TikTok | **9:16** | 1080×1920 | Keep top 14% and bottom 20% free of text (UI covers it) |
-| X / LinkedIn / YouTube thumbnail | 16:9 | 1920×1080 | Low — 3 words max |
+| YouTube thumbnail | 16:9 | 1280×720 | Very low — ≤ 4 words, bottom-right clear (see [10-thumbnails.md](10-thumbnails.md)) |
+| X / LinkedIn landscape | 16:9 | 1600×900 | Low — 3 words max |
 | A4 / A3 flyer & poster (print) | **≈ 1:1.414** (use 2:3 or 3:4 if the model lacks it) | 2480×3508 @300dpi | High — can hold details, still one hero |
 | Roll-up banner | 1:2.5 (approx) | 850×2000mm | Headline in top third (eye level) |
 | Billboard | 3:1 or 4:1 | — | Very low — 7 words max, read in 3 seconds |

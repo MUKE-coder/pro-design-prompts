@@ -65,6 +65,9 @@ THE BREAK:   hero sits in front of the giant headline and her sneakers break the
 - Hero: new person, same pose/scale/placement, outfit recoloured to brand.
 - Icons: swapped to the client's world — code-brackets tile, phone mock-up, cursor, browser window,
   bell, lightning (no rocket cliché). Same count (6).
+- Finish: the reference's frosted-glass pills are an AI tell → same pill shapes and positions, rendered
+  as solid flat fills (white pills on the dome, navy outlined pills on the light area). See
+  [09-human-made-look.md](09-human-made-look.md).
 - Improved vs reference: lowercase "illustrations" pill fixed to title case for consistency.
 
 ---

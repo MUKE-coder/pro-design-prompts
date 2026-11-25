@@ -35,8 +35,15 @@ because models never avoid their defaults unless told to.
 - Random decorative swooshes, waves, dots, confetti that mean nothing
 - Busy textured backgrounds behind text
 
+- Frosted-glass / glassmorphism cards, pills and tiles; glowing neon outlines around boxes
+- Dark navy + electric-blue/cyan "tech" palette with blurry blue studio bokeh
+- Feature lists with matching stock icons and filler status labels ("Ready", "Built-in")
+- Arrows pointing at the wrong thing; fake UI, fake code, decorative symbols in commands
+- Lens sparkle / glint on logos
+
 ### People tells
 - Waxy / airbrushed / plastic skin, perfect symmetrical faces, dead eyes
+- Coloured rim light (cyan/purple edge glow) that doesn't match the light on the face; pasted-in look
 - Extra or fused fingers, warped hands, melted jewellery
 - Everyone smiling at the camera with identical teeth
 - Generic stock poses: pointing at laptop, handshake, thumbs-up, arms crossed in a suit
@@ -55,6 +62,8 @@ because models never avoid their defaults unless told to.
 - Copy like "Elevate your experience", "Unlock your potential", "Transform your workflow"
 - A design a competitor could post unchanged
 
+> Full photo + design rules for a result that never reads as AI: [09-human-made-look.md](09-human-made-look.md).
+
 ---
 
 ## Negative-prompt strings (ready to paste)
@@ -64,13 +73,15 @@ because models never avoid their defaults unless told to.
 no purple gradient, no neon glow, no lens flare, no sparkles, no particles, no bokeh,
 no smoke, no steam, no extra objects, no clutter, no drop shadow on text, no 3D text,
 no bevel, no outline text, no watermark, no fake logo, no gibberish text, no extra text,
-no mockup, no frame, no border, no wall, no hands holding the poster
+no mockup, no frame, no border, no wall, no hands holding the poster, no frosted glass,
+no glassmorphism, no neon outline, no generic icons, no decorative labels, no gradient text
 ```
 
 **People**
 ```text
 no plastic skin, no airbrushed skin, no extra fingers, no deformed hands,
-no uncanny face, no symmetrical face, no dead eyes, no stock-photo pose
+no uncanny face, no symmetrical face, no dead eyes, no stock-photo pose,
+no retouching, no skin smoothing, no coloured rim light, no face changes
 ```
 
 **Food**

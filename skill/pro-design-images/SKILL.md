@@ -1,6 +1,6 @@
 ---
 name: pro-design-images
-description: Use before generating or prompting any image model to make an ad, flyer, poster, social post, carousel or infographic — especially when the user gives a reference design plus their logo. Applies art-director rules for slop-free, on-brand results.
+description: Use before generating or prompting any image model to make a YouTube thumbnail, ad, flyer, poster, banner, social post, carousel or infographic — especially when the user gives a reference/inspiration design plus their logo or real photo. Applies art-director rules for slop-free, human-looking, on-brand results.
 ---
 
 # Pro Design Images
@@ -11,6 +11,9 @@ Core belief: good design isn't about adding more — it's about better decisions
 
 ## Workflow
 
+0. **Platform first.** Always ask what it is (thumbnail, flyer, banner, post, ad, story…) and where
+   it will be posted; lock ratio, pixel size and safe zones (YouTube thumbnail 16:9 1280×720,
+   bottom-right clear; stories 9:16 with top 14% / bottom 20% clear; full table in `AI.md` §2).
 1. **Brief.** Make sure you know: purpose, placement (→ aspect ratio), audience, the ONE
    hero, exact copy, brand (colours/hex, logo, reference), tone (one), exclusions. Ask all
    missing items in one numbered list with a default for each. Never invent prices, dates,
@@ -48,6 +51,27 @@ element. Never copy its content — logo, brand name, text, contacts, the person
 Stay faithful; only deviate where the reference breaks a rule below, and say why.
 Full instructions: the repo's `AI.md`.
 
+## Thumbnail Mode (YouTube / video thumbnails)
+Inputs: inspiration thumbnail + user's real photo + video title, description, timestamps.
+1. **Video Read:** promise, payoff timestamp, curiosity gap, proof, emotion.
+2. **Ask ≥ 6 numbered questions with defaults** (placement, 3 text options ≤ 4 words that don't
+   repeat the title, the one proof visual, photo/expression fit, keep-vs-change from inspiration,
+   brand/series look, audience, honesty check, exclusions, A/B) **+ an "Assets I need" list**
+   (better photos, real screenshots, logo, recent thumbnails). Wait for answers.
+3. Thumbnail Breakdown → Thumbnail Decisions → prompt with "Attach in this order".
+Rules: ≤ 3 elements, ≤ 4 huge words, face 30–40% of height, readable at 168×94, bottom-right
+clear, real proof over icons, everything shown is in the video.
+
+## Human-made rules (never looks AI)
+- User's real photo used **exactly**: no retouching/smoothing/reshaping; relight the scene to match
+  the photo's light direction and colour; no coloured rim light; clean hair edges; contact shadows;
+  matching grain.
+- One light direction; natural skin pores; true colour; light grain; real lens depth of field.
+- No glassmorphism, neon outlines, glow, navy+cyan tech palette, stock icons, feature lists, filler
+  labels, pointless arrows, fake UI/code, gradient text, sparkles, flares.
+- Real screenshots/products as proof. After each result: name the 3 most "AI" things and remove them.
+- Paste the HUMAN-MADE block from `AI.md` §8.D into every prompt.
+
 ## Six rules
 - **Hierarchy:** exactly one dominant element; headline 3–5× body size.
 - **Contrast:** bold+light, big+small, dark+light; brand colour as full background when bold.
@@ -57,7 +81,8 @@ Full instructions: the repo's `AI.md`.
 - **Visuals:** relevant image, close-up crop or a person/emotion; ≤ ~3 objects.
 
 ## Ban list (always, unless asked)
-Purple/indigo neon gradients, glow, lens flare, sparkles, particles, bokeh orbs, steam/smoke,
+Frosted glass/glassmorphism, neon outlines, navy+cyan tech palette, coloured rim light, retouched
+skin, generic icon sets, filler labels, purple/indigo neon gradients, glow, lens flare, sparkles, particles, bokeh orbs, steam/smoke,
 glossy plastic 3D, plastic skin, extra fingers, centred-everything equal-weight layouts,
 >2 fonts, 3D/bevel/outlined text, drop shadows on text, gibberish/extra/fake text and logos,
 busy backgrounds behind text, stock clichés (lightbulb, rocket, handshake, network globe),

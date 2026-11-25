@@ -2,7 +2,8 @@
 
 A playbook that turns any image AI (ChatGPT / GPT Image, Gemini / Nano Banana, Midjourney,
 Ideogram, FLUX…) into a **detail-obsessed senior art director** — so your flyers, posters,
-product ads, promos and carousels look designed, not generated.
+YouTube thumbnails, banners, product ads and carousels look **designed and shot by a human** —
+not generated.
 
 > **AI slop isn't "made with AI". It's made without decisions.**
 > This repo replaces every vague adjective with a design decision.
@@ -19,6 +20,7 @@ product ads, promos and carousels look designed, not generated.
 | 4 | **Spacing** | Group related things. Leave 30–50% breathing room. |
 | 5 | **Variation** | One intentional pattern-break: oversize, crop, tilt, asymmetry. |
 | 6 | **Visuals** | A relevant image, close-up or emotion — not a wall of text. |
+| + | **Human-made** | Real photo untouched, light matched, no glass/glow/stock icons — nobody thinks "AI". |
 
 Full explanations with before/after diagnoses: [docs/01-six-principles.md](docs/01-six-principles.md)
 
@@ -26,13 +28,35 @@ Full explanations with before/after diagnoses: [docs/01-six-principles.md](docs/
 
 ## Quick start — just paste the link
 
+The AI always asks first: **what are you making, and where will you post it?** (YouTube thumbnail,
+flyer, banner, Instagram, WhatsApp status, print…) — then locks the right size and safe zones.
+
+### YouTube thumbnail
+Attach **(1) an inspiration thumbnail**, **(2) your real photo**, (3) optional screenshots/logo, then send:
+
+```text
+Read and follow: https://raw.githubusercontent.com/MUKE-coder/pro-design-prompts/main/AI.md
+
+Making: YouTube thumbnail   Posting on: YouTube
+Image 1 = inspiration. Image 2 = my real photo.
+Video title: ...
+Description: ...
+Timestamps: ...
+```
+The AI reads your video, asks **at least 6 questions** (with defaults — reply "ok") and asks for any
+extra assets it needs, then gives you the prompt plus the order to attach the images in ChatGPT.
+Full message: **[templates/youtube-thumbnail.md](templates/youtube-thumbnail.md)**.
+
+### Flyer, banner, ad or social post
+
 In ChatGPT or Gemini, attach **(1) a reference design you like** and **(2) your logo**, then send:
 
 ```text
 Read and follow: https://raw.githubusercontent.com/MUKE-coder/pro-design-prompts/main/AI.md
 
+Making: flyer   Posting on: Instagram feed + WhatsApp status
 Image 1 = reference template. Image 2 = my logo.
-Company: ...   Headline: ...   Services: ...   Phone: ...   Brand colours: ...   Size: 4:5
+Company: ...   Headline: ...   Services: ...   Phone: ...   Brand colours: ...
 ```
 
 The AI reads **[AI.md](AI.md)** (one self-contained instruction file), then:
@@ -68,10 +92,12 @@ docs/
   06-copy-and-text.md             ← voice, text budget, headline formulas, no invented facts
   07-workflow.md                  ← brief → decide → rounds → delete → check → save recipe
   08-reference-mode.md            ← reference image → your brand, with a full worked example
+  09-human-made-look.md           ← why people can tell it's AI, and the rules that stop it
+  10-thumbnails.md                ← YouTube thumbnail workflow, specs, rules, photo tips
 models/                           ← GPT Image, Gemini/Nano Banana, Midjourney, Ideogram/Flux
-templates/                        ← from-reference (start here), product ad, event flyer,
+templates/                        ← youtube-thumbnail, from-reference (start here), product ad, event flyer,
                                     business promo, carousel, infographic
-examples/slop-vs-pro.md           ← 7 bad prompts rewritten as pro prompts
+examples/slop-vs-pro.md           ← 8 bad prompts rewritten as pro prompts (incl. a thumbnail)
 recipes/                          ← 10 reusable style recipes (Hot Sale, Worship Night, …)
 checklists/pre-publish.md         ← run before every post
 skill/pro-design-images/SKILL.md  ← agent skill version (Claude / Cowork / Claude Code)
@@ -82,8 +108,9 @@ skill/pro-design-images/SKILL.md  ← agent skill version (Claude / Cowork / Cla
 ## The anatomy of a pro prompt
 
 ```
+[0] Platform    what it is + where it's posted → ratio, size, safe zones
 [1] Medium      "Flat 2D social ad design, edge-to-edge, not a mockup"
-[2] Format      4:5 portrait
+[2] Format      e.g. 16:9 1280×720 thumbnail · 4:5 portrait feed
 [3] Background  one plain colour / two-tone gradient — described, not decorated
 [4] Hero        subject + position + scale (%) + crop + angle + lens
 [5] Light       named setup (key / fill / rim)
@@ -91,7 +118,8 @@ skill/pro-design-images/SKILL.md  ← agent skill version (Claude / Cowork / Cla
 [7] Graphics    max 2 (pill button, badge, divider)
 [8] Spacing     margins, groups, % empty space
 [9] Anchor      named style reference, not "modern/clean"
-[10] Exclusions "Do not include: …" ban list
+[10] Human-made real photo untouched, one light direction, no glass/glow/stock icons
+[11] Exclusions "Do not include: …" ban list
 ```
 
 ## Golden rules
@@ -101,7 +129,8 @@ skill/pro-design-images/SKILL.md  ← agent skill version (Claude / Cowork / Cla
 - **Quote every word.** Never let the AI invent prices, dates, phone numbers or venues.
 - **Edit by deleting.** Removing things fixes more than adding.
 - **Heavy text? Go hybrid** — generate the visual with empty space, set text in Canva/Figma.
-- **Real logo, real product photo** whenever trust matters. Never ship an AI-drawn logo.
+- **Real logo, real product photo, real face** whenever trust matters. Never ship an AI-drawn logo.
+- **Change the scene, not the face.** Your photo is used exactly; the background is relit to match it.
 
 ---
 
@@ -110,6 +139,7 @@ skill/pro-design-images/SKILL.md  ← agent skill version (Claude / Cowork / Cla
 - The six principles are adapted from a before/after design carousel by **@gg.designhub** on Instagram.
 - [Avoiding AI Slop — UI UX Pro Max](https://ui-ux-pro-max-skill.com/blog/avoiding-ai-slop/) — anchor to references, ban the tells, one strong decision, iterate by deleting.
 - [Avoid AI Slop: a guide for marketers & PR — Merritt Group](https://www.merrittgrp.com/mg-blog/avoid-ai-slop-guide-for-marketers-and-pr/) — negative constraints, explicit voice, human review.
+- [How to de-slopify your designs — UX Collective](https://uxdesign.cc/how-to-de-slopify-your-designs-4c40c57c1dc9) — glassmorphism, default styling, high density; reflect, remove, choose deliberately.
 - [How not to create AI slop — AIVA](https://www.aiva.ie/blog/how-not-to-create-ai-slop) — brief first, exclusions, generate in rounds, text handling, pre-publish checklist.
 
 Brand names in the docs describe the reference carousel or serve as style anchors. Use your

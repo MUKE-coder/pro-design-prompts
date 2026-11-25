@@ -3,7 +3,7 @@
 **Any "no" → fix or discard. Never post "close enough".**
 
 ## Before you prompt
-- [ ] Placement & aspect ratio decided
+- [ ] What it is + where it's posted → aspect ratio, size, safe zones locked
 - [ ] ONE hero named
 - [ ] Reading order written (hero → headline → support → CTA)
 - [ ] Copy written in one voice; headline ≤ 6 words; total ≤ ~25 words
@@ -36,6 +36,21 @@
 - [ ] No garbled background text, fake logos, watermark-like marks
 - [ ] Hasn't drifted to the category's stock look
 - [ ] A competitor could NOT post this unchanged
+
+## Human-made audit (would anyone think "AI made this"?)
+- [ ] No frosted glass, neon outlines, glow, flares, sparkles, bokeh orbs
+- [ ] Not the default navy + cyan "tech" palette (unless it's genuinely the brand)
+- [ ] No feature lists, stock icons, filler labels, pointless arrows, fake UI/code
+- [ ] Real photo used exactly — no smoothing, face unchanged, pores visible
+- [ ] One light direction; background matches the light on the face; no fake rim light
+- [ ] Contact shadows, clean hair edges, matching grain and sharpness
+- [ ] The 3 most "AI" things named and removed
+
+## YouTube thumbnail
+- [ ] ≤ 3 elements, ≤ 4 words, text doesn't repeat the title
+- [ ] Readable at 168×94 (squint test); face 30–40% of height, eyes sharp
+- [ ] Bottom-right corner clear (duration stamp)
+- [ ] Everything shown is really in the video
 
 ## Text (read letter by letter)
 - [ ] Every word matches the brief exactly

@@ -3,6 +3,7 @@
 Slop is usually **"one prompt, first result, posted."** Pros work in rounds.
 
 ```
+ 0. PLATFORM   what is it + where will it be posted → ratio, size, safe zones
  1. BRIEF      8 answers (purpose, placement, audience, one thing, copy, brand, tone, exclusions)
  2. DECIDE     Design Decisions block (hero, hierarchy, layout, type, colour, light, break, space)
  3. PROMPT     Structured prompt + negative prompt
@@ -24,6 +25,9 @@ Score each of the 4 results quickly:
 - Right ratio / text-safe areas? (Y/N)
 
 Pick the best one. If none is close, the **prompt** is wrong — change the Design Decisions, not just words.
+
+Then run the **human-made audit**: name the 3 things that most say "AI made this" and remove them
+([09-human-made-look.md](09-human-made-look.md)).
 
 ## Round 2 — edit, don't re-roll
 

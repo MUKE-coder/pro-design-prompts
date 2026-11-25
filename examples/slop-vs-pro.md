@@ -120,3 +120,48 @@ that never goes out of style." White pill "Shop Now →". No other text, no logo
 *Result:* clip-art doves, rays, 5 fonts, misspelled venue, invented phone number.
 
 **✅** see `templates/event-flyer.md` and `models/ideogram-flux-others.md` (A Night of Worship).
+
+---
+
+## 8. YouTube thumbnail — Grit Framework
+
+**❌ What it looked like:** a glowing glass "G" app tile with a lens sparkle, a gradient
+"Grit Framework" title, a glass subtitle pill, a glass card listing 5 features with stock icons and
+status labels ("Open Source", "Generated", "Ready", "Built-in"), a glass command pill
+(`+ grit generate resource Contact`) with an arrow to one list row, and the presenter on the right
+with a cyan rim light, smooth skin and a blurred blue studio background.
+
+*Why it reads as AI:* four glass panels; navy + cyan glow palette; ~12 elements; filler labels;
+stock icons; a "+" where a terminal prompt goes; an arrow pointing at one row; rim light that
+doesn't match the warm light on the face; generic bokeh background.
+
+**✅ Pro prompt (attach: IMAGE 1 = real presenter photo, IMAGE 2 = real terminal screenshot)**
+```text
+Create a YouTube thumbnail, 16:9, 1280×720. It must look like a real photo taken with a real camera
+and composited by a professional human thumbnail designer — not an AI image.
+
+Use IMAGE 1 (my real photo) exactly as provided: same face, identity and skin texture; no retouching,
+smoothing or reshaping. Place me on the right, cropped at mid-chest, head and shoulders filling 75%
+of the frame height, looking toward the left side of the frame with a curious, slightly raised-brow
+expression (as in the photo).
+
+Background: flat warm off-white #F2EEE6, a faint paper texture, no blur, no lights, no bokeh.
+Light: soft key light from the front-left matching the light already on my face; a soft natural
+shadow behind me on the background. No coloured rim light.
+
+Left 55%: IMAGE 2 (my real terminal screenshot) as a flat, slightly rotated (−3°) card with a thin
+black border, showing exactly: "$ grit generate resource Contact" and the real output lines beneath.
+It overlaps my shoulder slightly.
+
+Text, top-left above the screenshot, two lines, ultra-bold condensed sans (like Anton), near-black
+#111111: "ONE COMMAND." then, in Go teal #00ADD8 on a solid black box: "FULL APP." — about 22% of
+frame height per line. Render exactly as written; no other text anywhere.
+
+Keep the bottom-right 18%×15% empty. 5% margins.
+
+HUMAN-MADE FINISH: one consistent light direction; natural skin with pores, no smoothing; natural
+colour, subtle grain; flat solid design elements only — no frosted glass, no glow, no neon outlines,
+no gradient text, no lens flare, no sparkles, no icons, no feature list, no arrows, no labels.
+```
+*Why it works:* three elements (face, real proof, 4 words), a palette that stands out from the
+blue-tech feed, real command instead of decoration, light that matches the photo.

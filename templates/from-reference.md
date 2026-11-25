@@ -10,6 +10,9 @@ Then paste this and fill in the brackets (delete lines you don't need):
 ```text
 Read and follow: https://raw.githubusercontent.com/MUKE-coder/pro-design-prompts/main/AI.md
 
+Making: [flyer / poster / banner / social post / ad / story]
+Posting on: [Instagram feed / WhatsApp status / Facebook / print A4 / website banner / …]
+
 Image 1 = reference template. Image 2 = my logo. [Image 3 = my product/photo.]
 
 Company: [Name]
@@ -20,11 +23,11 @@ Services / labels for the pills: [Branding, Posters, Motions, Illustrations, Cam
 Phone / WhatsApp: [+256 7XX XXX XXX]
 Website / handle: [@yourhandle]
 Brand colours: [#hex, #hex] — or "keep the reference colours"
-Size: [4:5 Instagram feed / 9:16 WhatsApp status / A4 print]
 Must not include: [anything]
 ```
 
-**That's it.** The AI will:
+**That's it.** (Making a YouTube thumbnail? Use [youtube-thumbnail.md](youtube-thumbnail.md).) The AI will:
+0. confirm the platform and lock the size + safe zones
 1. break down the reference (layout, headline treatment, every element and its count, colours, lighting)
 2. map your info into each slot (and ask about anything missing)
 3. recolour by role if you gave brand colours
