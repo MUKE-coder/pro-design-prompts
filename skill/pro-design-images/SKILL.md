@@ -67,7 +67,8 @@ clear, real proof over icons, everything shown is in the video.
 problem → why (design, person/photo, light, text, logo, proof, density, platform fit), all text
 transcribed with errors flagged, what works, root cause. 3. **Fix Plan:** Keep / Remove / Replace with
 real / Fix + LIGHT FIX or REBUILD. 4. **Ask ≥ 5 questions (≥ 6 for thumbnails) with defaults + Assets I
-Need** (real photo — never "fix" a generated face, replace it; real logo; real screenshots/products;
+Need** (fix level: LIGHT FIX / FAITHFUL REMAKE = hired-Photoshop-designer reproduction keeping
+all information / REBUILD; real photo — never "fix" a generated face, replace it; real logo; real screenshots/products;
 verified details). Wait. 5. "Upload in this order" line + prompt whose first lines are the UPLOAD
 ORDER block; the old image is always IMAGE 1. Batch: one combined question set, one prompt per image.
 
@@ -78,7 +79,16 @@ same message: IMAGE 1 = … · IMAGE 2 = …`. Name each by what it is; only lis
 before the code block.
 
 ## Human-made rules (never looks AI)
-- User's real photo used **exactly**: no retouching/smoothing/reshaping; relight the scene to match
+- Pro retoucher edits allowed: cut-out, new background, relight, colour match, clean/remove objects
+  (e.g. dusty mic), remove selfie arm/clutter, tidy clothes. Never: reshape face, smooth skin, change
+  expression/age/body, invent props or hands. Remove personal backgrounds (family photos, other people).
+- Screenshots are evidence: place exactly, never retype or invent UI numbers.
+- Real screenshot → realistic mockup like a Photoshop smart object: flat card, unbranded browser
+  window, generic laptop/monitor/phone (no brand logo), or zoomed callout of a real crop. Correct
+  perspective, faint plausible reflection, no glow/holograms/floating UI. Weak/empty dashboard →
+  ask for a re-capture with real sample data. Fallback: blank-screen device + place it by hand.
+- Take the accent colour from the real product/logo. Crop screenshots to what's readable.
+- User's real photo: identity exact, no beauty retouching/smoothing/reshaping; relight the scene to match
   the photo's light direction and colour; no coloured rim light; clean hair edges; contact shadows;
   matching grain.
 - One light direction; natural skin pores; true colour; light grain; real lens depth of field.

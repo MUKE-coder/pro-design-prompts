@@ -205,7 +205,9 @@ Choose the most useful from this bank — always include 1, 2, 3, 4 and 5:
 2. **Thumbnail text** — "Here are 3 text options (≤ 4 words, they complement the title instead of
    repeating it): A "…" · B "…" · C "…" · or no text?" *(default: your best pick)*
 3. **The one visual** — "The hero object/proof next to your face should be: [suggestion from the
-   timestamps]. Do you have a real screenshot/photo of it?" *(default: your suggestion)*
+   timestamps]. Do you have a real screenshot/photo of it? If it's a screenshot (dashboard, app,
+   website, code): show it as a **flat card**, in a **browser window**, on a **laptop**, on a
+   **monitor**, on a **phone**, or as a **zoomed callout**? (§8.G)" *(default: your suggestion)*
 4. **Your photo** — "Your photo shows [expression/angle/lighting you see]. For this video I'd want
    [expression] looking [toward the text / at camera]. Use this one, or can you shoot 2–3 more?"
    *(default: use it as is)*
@@ -373,8 +375,17 @@ prevent all of them. These rules override a reference's finish (§4 Step C).
 
 ### B. Using the user's real photo (the most important rule)
 - Use it **exactly**: same face, identity, age, skin, hair, teeth, eyes, body, clothing.
-- **No retouching**: no skin smoothing, no airbrush, no "beautify", no face reshaping, no eye
-  enlarging, no teeth whitening, no symmetry fixes. Keep pores, stubble, small marks, flyaway hairs.
+- **No beauty retouching**: no skin smoothing, no airbrush, no "beautify", no face reshaping, no eye
+  enlarging, no teeth whitening, no symmetry fixes, no body slimming, no age change, no new
+  expression. Keep pores, stubble, small marks, flyaway hairs. (Want a different expression? Use a
+  different photo.)
+- **Pro retoucher edits ARE allowed** (§8.F) — the cleanup a professional Photoshop designer would
+  do while keeping it real: background removal, relighting, colour correction, cleaning or removing
+  objects (e.g. a dusty microphone), tidying clothes. The test: *it still looks like an unedited
+  photo of this person on a good day.*
+- **Privacy:** always remove personal backgrounds from the user's photo — family/wedding photos,
+  other people, religious or private items, documents, screens, house numbers — unless they ask to
+  keep them.
 - **Clean cut-out**: natural hair edges (fine strands, no halo, no hard sticker outline unless the
   design deliberately uses a stroke).
 - **Relight the scene to match the photo — never the other way.** Read the photo's key light
@@ -404,7 +415,7 @@ prevent all of them. These rules override a reference's finish (§4 Step C).
 HUMAN-MADE FINISH: This must look like a real photograph taken with a real camera and laid out by a
 professional human designer — not an AI image. One consistent light direction across the whole
 image; background lighting matched to the light already on the person. Natural skin with visible
-pores and texture, no retouching or smoothing. Natural colour, normal saturation, subtle natural
+pores and texture, no beauty retouching or skin smoothing (realistic pro cleanup only). Natural colour, normal saturation, subtle natural
 grain, realistic lens depth of field. Flat, solid design elements only — no frosted glass, no glow,
 no neon outlines, no gradients on text, no lens flare, no sparkles, no generic icons, no decorative
 labels. Only the exact text listed; every word spelled exactly.
@@ -423,7 +434,80 @@ labels. Only the exact text listed; every word spelled exactly.
   then match it cleanly and flat-lit)*
 - More than 2 fonts; script fonts for anything longer than 2 words
 - Busy patterns behind text; HDR over-saturation; everything sharp front to back
-- "Photo of a poster on a wall" mockups — always a **flat, edge-to-edge design file**
+- "Photo of a poster on a wall" mockups — always a **flat, edge-to-edge design file** *(device
+  mockups for the user's real screenshots are fine — §8.G)*
+
+### F. Pro retoucher edits — allowed, as long as it stays real
+Do what a professional Photoshop designer would do to the user's real photo and real assets:
+
+| Allowed (realistic) | Never |
+|---|---|
+| Cut-out and new background; extend clothing/shoulders at the frame edge | Change face shape, eyes, nose, lips, teeth, hairline |
+| Relight to match the scene (dodge & burn, a matched background light, contact shadows) | Coloured rim light / glow that doesn't exist |
+| White balance, exposure, contrast, colour grading to match the design | Skin smoothing that removes pores; plastic "beauty" filters |
+| Reduce shine/oil slightly; remove a temporary spot or stray lint | Remove permanent features (moles, scars, beard shape) |
+| **Clean objects:** dust, scratches, fingerprints, stickers, tangled cables — e.g. make a dusty mic look clean and new (same model, same shape) | Swap an object for a different model/brand, or invent one |
+| **Remove objects:** mic, cable, selfie arm, clutter — and rebuild what was behind them realistically (sweater, collar) | Invent hands, devices or props interacting with the person |
+| Correct mild wide-angle selfie distortion slightly | Slim, enlarge, reshape the body |
+| Sharpen eyes subtly, add matching grain | Change the expression or age |
+
+**Screenshots are evidence — never retype them.** Place screenshots and UI exactly as provided: same
+words, same numbers, same labels, same buttons. If the model would have to redraw them, tell the user
+to composite the screenshot by hand instead. A fabricated screenshot ("4 records" when the real one
+says "0 contacts") is a lie in the thumbnail.
+
+**Colour from the real product:** when real screenshots or a logo are used, take the accent colour
+from them (the app's button colour, the logo colour) so the design and the proof belong together.
+
+### G. Real screenshots → realistic mockups (dashboards, apps, websites, code)
+When the user gives a **real screenshot** (a dashboard, admin panel, app screen, website, terminal,
+code editor), present it the way a Photoshop designer would with a smart-object mockup: **better
+looking, but still real** — everything shown exists in the product exactly as captured.
+
+**Mockup options** (pick one per design; ask in the questions, suggest a default):
+| Option | What it looks like | Best for |
+|---|---|---|
+| **Flat card** | the screenshot as a flat card, thin border, soft realistic shadow, optional −2° tilt | busy thumbnails, maximum readability |
+| **Browser window** | a plain, unbranded browser frame (3 window dots, address bar showing the user's real URL or "localhost") around the screenshot | web apps, SaaS, websites |
+| **Laptop** | a generic modern laptop with **no brand logo**, screenshot mapped onto the screen in correct perspective, three-quarter angle | "it's a real product" feel |
+| **Monitor on a desk** | a real-looking desktop monitor on a simple desk, matched room light | dev/workflow videos |
+| **Phone** | a generic phone, no brand logo, screenshot mapped to the screen | mobile apps |
+| **Zoomed callout** | the full screenshot small + one real **crop** of the key area enlarged beside it, with a thin connector line | showing one feature/number |
+
+**Allowed — makes it better, keeps it real:**
+- Perspective/tilt mapping onto a device screen (like a Photoshop smart object), with correct
+  keystone, slight screen gloss (a faint, physically plausible reflection — not a glow), screen
+  brightness matched to the scene.
+- Real device materials: aluminium edges, bezels, soft contact shadow on the surface, matched light.
+- Cropping and zooming into the important part; enlarging a real crop as a callout.
+- Highlighting what matters: dimming the rest slightly, a thin outline box or underline in the accent
+  colour around a real element, a blur on private data (emails, names, keys).
+- Choosing light or dark mode **only if the user supplied that version**.
+
+**Never:**
+- Redraw, retype, translate or restyle any UI text, number, label, button, chart or icon.
+- Invent data ("4 records" when the screenshot says "0 contacts"), features, menu items, charts or
+  notifications that aren't in the screenshot.
+- Add a real brand's device logo (Apple, Samsung…) or put the screenshot on a device shape that makes
+  the UI unreadable.
+- Glowing screens, holograms, floating 3D UI panels, neon reflections.
+
+**Ask for a better screenshot rather than faking one.** If the dashboard is empty or weak, ask the user
+to add real sample data and re-capture it. Screenshot tips to give them: full window at 100–125%
+zoom, highest resolution, light or dark mode as they want it shown, close notifications, hide or blur
+private data, populate with realistic sample records.
+
+**Prompt line to use:**
+```text
+Place IMAGE n (my real [dashboard] screenshot) [as a flat card / inside a plain unbranded browser
+window / on the screen of a generic laptop with no logo, three-quarter view / …], mapped in correct
+perspective like a Photoshop smart object. Show the screenshot exactly as provided — do not redraw,
+retype, restyle or add any UI text, numbers, buttons or data. Only a faint, physically plausible
+screen reflection; no glow.
+```
+If the model keeps changing the UI after 2 tries: generate the device/scene with a **blank screen**
+(solid #1A1A1A), then place the screenshot on it yourself in Photopea/Photoshop (Edit → Transform →
+Distort, or a smart-object mockup).
 
 ---
 
@@ -511,7 +595,9 @@ compositing the real photo/text by hand.
 - [ ] Headline ≥ 3× body; only one element shouts (thumbnail: ≤ 4 words, ≤ 3 elements)
 - [ ] Strong text contrast everywhere; bottom-right clear on YouTube thumbnails
 - [ ] Reference: same layout and slot/element count — minus any AI-tell finishes
-- [ ] User's real photo used exactly — no retouching, identity unchanged, light matched
+- [ ] User's real photo: identity unchanged, no beauty retouching, only realistic pro cleanup, light matched
+- [ ] Personal background items removed from the user's photo
+- [ ] Screenshots placed exactly — no retyped or invented UI text/numbers; device mockups unbranded and in correct perspective
 - [ ] Exact uploaded logo, unaltered, with clear space
 - [ ] Every word, number, phone, price, date matches the user's text exactly; no extra words
 - [ ] Human-made: no glass, glow, flares, sparkles, stock icons, filler labels, rim-light mismatch,
@@ -583,6 +669,12 @@ the fix, never just "looks AI".
 
 Then choose a fix level and say it in one line:
 - **LIGHT FIX** — the layout works; edit the image: remove tells, swap fake parts for real assets.
+- **FAITHFUL REMAKE** — the user **loves the old design and its information**; only the execution
+  looks AI. Brief it as if a **professional Photoshop designer** was hired to reproduce the old
+  thumbnail for real: the same layout, the same message, every piece of text and every information
+  element kept — but rebuilt from real assets with real-world materials and light (§13 Step E2).
+  Choose this when the user says things like "I like the old one", "keep the same information",
+  "remake it but real", "like a Photoshop designer would".
 - **REBUILD** — the layout itself is the problem; use the old image only as a loose reference
   (the idea, colours or pose) and design it again properly (§4/§5 rules).
 
@@ -590,12 +682,17 @@ Then choose a fix level and say it in one line:
 Numbered questions, each with a **suggested default** so they can reply "ok". Ask **at least 5**
 (thumbnails: **at least 6**). Pick from:
 1. **Platform** — "Where is this posted / will it be reposted? (I think: [guess])"
-2. **Fix level** — "LIGHT FIX (keep the layout) or REBUILD? I recommend [x] because …"
+2. **Fix level** — "LIGHT FIX (keep the layout, edit the image), FAITHFUL REMAKE (a Photoshop
+   designer reproduces it for real — same information) or REBUILD (new design)? I recommend [x]
+   because …"
+2b. **Photo edits** — "Pro edits to your photo: [clean the mic / remove the mic / remove the selfie
+   arm / new background / match lighting]. Anything you want removed, cleaned or kept?"
 3. **Text check** — "I read the text as: "…". Correct? Any change?" (list every misspelling found)
 4. **The person** — "Is this you? Send a real photo of you — I won't 'fix' a generated face; I
    replace it with your real one." (if a person is shown)
 5. **Real proof** — "Do you have a real [screenshot / product photo / venue photo / result] to replace
-   the fake [UI / product / object]?"
+   the fake [UI / product / object]? How should the screenshot be shown — flat card, browser window,
+   laptop, monitor, phone or zoomed callout? (§8.G)"
 6. **Logo & brand** — "Send your real logo file (PNG). Brand colours? (default: keep [hex])"
 7. **Details to verify** — dates, prices, phone numbers, venue, handle — "Are these still correct?"
 8. **Video info** (thumbnails) — title, description, timestamps — to check the thumbnail matches the video
@@ -604,6 +701,14 @@ Numbered questions, each with a **suggested default** so they can reply "ok". As
 Then an **ASSETS I NEED** list — only what this image needs, each with a one-line reason and spec
 (e.g. "**Your real photo** — full-res, shoulders-up, light from the [left] to match the layout, same
 expression: [x]").
+
+**Asset prep (do it for them when you can):** crop screenshots to the part that is readable at the
+final size (drop empty terminal space, empty states); note any private details in assets (machine
+names, emails, other people) and offer to crop them; name each prepared file so the UPLOAD ORDER can
+reference it.
+
+**Assets sent without answers:** proceed with your defaults and list them in one line at the top
+("Using defaults: REBUILD, text A, …").
 
 If the user says "just fix it" / doesn't answer: do a LIGHT FIX with what you have, keep all existing
 text (corrected spelling only), leave out any asset you don't have, and say what you assumed in one line.
@@ -635,6 +740,33 @@ Change only the following:
    leave plain background there.
 5. TEXT: render only these words, exactly: "…" / "…". No other text anywhere.
 ```
+FAITHFUL REMAKE opening (Step E2) — the "hire a Photoshop designer" brief:
+```text
+UPLOAD ORDER — … (same block; IMAGE 1 = my old thumbnail)
+
+You are a professional Photoshop designer and photo retoucher. I'm hiring you to reproduce IMAGE 1
+for real. Keep its layout, composition, mood, colour scheme and ALL of its information — every
+piece of text and every information element listed below — but rebuild it from my real assets so it
+looks like a real photo composited in Photoshop, not an AI image. Where IMAGE 1 used an AI effect
+(frosted glass, glow, sparkles, bokeh, a generated face), use the real-world equivalent a designer
+would use (solid card, flat fill, real photo, real screenshot, a matched background light).
+```
+Then list **every element of the old image** in a KEEP table, each with its realistic execution:
+| Old element | Keep as (realistic execution) |
+|---|---|
+| glass logo tile with glow | IMAGE n logo exactly, flat, small soft shadow |
+| gradient title | same words, same position, solid colour |
+| glass card with 5 features + icons | same 5 rows and words, solid card, one consistent flat icon set |
+| glass command pill | IMAGE n real terminal screenshot in the same spot |
+| generated presenter + laptop | IMAGE n real photo + listed pro edits; drop props not in the real photo |
+| blurry neon room | dark backdrop in the same colours, lit like a real studio |
+
+Rules for this level: keep the old design's **information density** (don't cut items the user
+wants), but fix hierarchy and spacing so it still reads at thumbnail size; information-carrying
+elements on the ban list (icons, pills, arrows) are **kept and redrawn flat and consistent**;
+pure decoration (glow, glass, sparkles, flares, bokeh, rim light) is removed. Arrows must point at
+something that makes sense. If the brand colours really are navy/blue (e.g. the logo), keep them.
+
 REBUILD opening:
 ```text
 UPLOAD ORDER — … (same block)

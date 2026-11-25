@@ -144,6 +144,7 @@ skill/pro-design-images/SKILL.md  ← agent skill version (Claude / Cowork / Cla
 - **Edit by deleting.** Removing things fixes more than adding.
 - **Heavy text? Go hybrid** — generate the visual with empty space, set text in Canva/Figma.
 - **Real logo, real product photo, real face** whenever trust matters. Never ship an AI-drawn logo.
+- **Real screenshots, realistic mockups.** Your dashboard goes on a browser/laptop/phone mockup exactly as captured — never retyped.
 - **Change the scene, not the face.** Your photo is used exactly; the background is relit to match it.
 
 ---

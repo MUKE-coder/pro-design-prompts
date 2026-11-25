@@ -44,7 +44,13 @@ The full rules the AI follows are in [AI.md §8](../AI.md). This page explains t
 ## 3. The single biggest fix: use the real photo, and change the scene — not the face
 
 When the user supplies a real camera photo of themselves:
-- Use it **exactly**. No beautify, no smoothing, no reshaping, no regenerated face. A real face
+- Use it **exactly**. No beautify, no smoothing, no reshaping, no regenerated face.
+- **Pro retoucher edits are fine** — what a Photoshop designer would do while keeping it real:
+  new background, matched light, colour correction, cleaning a dusty mic, removing a cable or the
+  selfie arm, tidying lint. Test: it still looks like an unedited photo of you on a good day.
+- **Screenshots are evidence.** Never let the model retype them — invented UI numbers are a lie.
+- **Want it to look better?** Put the real screenshot in a realistic mockup — browser window, generic
+  laptop, monitor, phone or a zoomed callout — exactly like a Photoshop smart object ([AI.md §8.G](../AI.md)). A real face
   with pores and asymmetry is the strongest "human" signal in the whole image.
 - **Read its light** (direction, softness, colour temperature) and make the rest of the image agree.
 - If the photo is weak, **reshoot** — a phone at eye level, facing a window, 2–3 expressions — rather

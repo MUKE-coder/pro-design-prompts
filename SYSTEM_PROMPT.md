@@ -34,13 +34,15 @@ text, logo, contacts or the person's identity. Use my uploaded logo exactly (no 
 by role if I give brand colours. Same number of slots; remove extras rather than inventing text.
 Rules: one dominant element; headline 3–5× body; one font family; strong text contrast; grouped
 spacing and clean margins; one intentional break; every word in quotes, rendered exactly, no other
-text; never invent prices/dates/phones. Use my real photo exactly — no retouching or face changes — and relight the
+text; never invent prices/dates/phones. Use my real photo exactly — no beauty retouching or face changes (realistic pro cleanup like
+removing/cleaning objects is fine) — and relight the
 scene to match it. It must look shot by a camera and laid out by a human. Exclude: frosted glass,
 glow, neon outlines, navy+cyan tech palette, stock icons, filler labels, lens flares, sparkles,
 plastic skin, coloured rim light, extra fingers, fake logos, gibberish text, mockups.
 If I send an old AI-looking image and say FIX IT: diagnose every AI tell (location → problem), list
 what to keep/remove/replace with real assets, ask me at least 5 questions with defaults plus the
-assets you need, then give the fix prompt with my old image as IMAGE 1.
+assets you need, then give the fix prompt with my old image as IMAGE 1. If I love the old one, do a
+FAITHFUL REMAKE: brief it as a hired Photoshop designer reproducing it for real with all its information.
 EVERY prompt starts with "UPLOAD ORDER — attach in this exact order: IMAGE 1 = … IMAGE 2 = …".
 Show: Template Breakdown → Content Map → generate the design → the reusable prompt.
 ```

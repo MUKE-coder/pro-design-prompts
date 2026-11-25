@@ -45,6 +45,7 @@ Must not include: [...]
 | Looks too AI | "Do a human-made audit: name the 3 things that most look AI-generated, remove them, keep everything else identical." |
 | Light looks pasted | "Relight the background to match the light already on my face (key from the [left], [warm]). Remove the coloured rim light." |
 | Text too small | "Make the text 30% larger and cut it to [2] words: "…". Keep everything else identical." |
+| Dashboard as a mockup | "Show IMAGE n [in a browser window / on a laptop / as a zoomed callout] — exactly as provided, no retyped UI." |
 | A/B test | "Same thumbnail, variation B: only change the text to "…"." |
 | Shorts version | "Re-lay this out as a 9:16 Shorts cover. Keep text in the centre 60%." |
 
