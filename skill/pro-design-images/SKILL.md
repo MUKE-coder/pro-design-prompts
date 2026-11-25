@@ -68,7 +68,8 @@ Inputs: inspiration thumbnail + user's real photo + video title, description, ti
    brand/series look, audience, honesty check, exclusions, A/B) **+ an "Assets I need" list**
    (better photos, real screenshots, logo, recent thumbnails). Wait for answers.
 3. Thumbnail Breakdown → Thumbnail Decisions → prompt starting with the UPLOAD ORDER block.
-Rules: ≤ 3 elements, ≤ 4 huge words, face 30–40% of height, readable at 168×94, bottom-right
+Style: MINIMAL or INFO-RICH (ask). Saved channel recipe → apply it. Always a PSD layer plan.
+Rules (MINIMAL): ≤ 3 elements, ≤ 4 huge words, face 30–40% of height, readable at 168×94, bottom-right
 clear, real proof over icons, everything shown is in the video.
 
 ## Fix Mode (user sends an old AI-looking image + "fix it" / "de-slop" / any improve request)

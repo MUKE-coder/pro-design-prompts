@@ -12,6 +12,12 @@ not generated.
 
 ## Think like a Photoshop master
 
+| Before (AI) | After (Photoshop-master remake) |
+|---|---|
+| ![Before](examples/images/grit-0-before-ai.jpg) | ![After](examples/images/grit-3-photoshop-master-final.jpg) |
+
+Full story, prompts and lessons: [examples/thumbnail-grit-case-study.md](examples/thumbnail-grit-case-study.md).
+
 Every design starts as a **PSD layer plan** — cut-out, realistic retouch, motivated light, stacked
 shadows on one light angle, colour grade, layer styles, finishing — and the image model is briefed to
 render that finished composite. Real assets + Photoshop craft = no AI look.
@@ -119,6 +125,7 @@ docs/
 models/                           ← GPT Image, Gemini/Nano Banana, Midjourney, Ideogram/Flux
 templates/                        ← fix-ai-slop, youtube-thumbnail, from-reference (start here), product ad, event flyer,
                                     business promo, carousel, infographic
+examples/thumbnail-grit-case-study.md ← real before → after: AI thumbnail → Photoshop-master remake
 examples/slop-vs-pro.md           ← 8 bad prompts rewritten as pro prompts (incl. a thumbnail)
 recipes/                          ← 10 reusable style recipes (Hot Sale, Worship Night, …)
 checklists/pre-publish.md         ← run before every post

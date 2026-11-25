@@ -28,6 +28,9 @@ Must not include: [anything]
 
 **That's it.** (Making a YouTube thumbnail? Use [youtube-thumbnail.md](youtube-thumbnail.md).) The AI will:
 0. confirm the platform and lock the size + safe zones
+   …and (after the breakdown) pick a style playbook, a subject treatment (full colour / B&W with your
+   brand accents / cut-out with stroke) and show the **PSD layer plan** it will brief — Photoshop-level
+   work: cut-out, overlap with the headline, matched light and haze, stacked shadows, grade
 1. break down the reference (layout, headline treatment, every element and its count, colours, lighting)
 2. map your info into each slot (and ask about anything missing)
 3. recolour by role if you gave brand colours

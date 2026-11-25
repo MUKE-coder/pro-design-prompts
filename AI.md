@@ -155,6 +155,16 @@ Slot rules:
   glow, lens sparkles, plastic 3D). Then keep the same *shape and position* but render it in a
   human-made finish (solid flat fill, printed paper, real material, real photo) and say so in one line.
 
+### Step C2 — Assets, style treatment and the PSD plan
+- If anything is missing, ask in ONE numbered message with defaults, plus an **ASSETS I NEED** list
+  (real photo of the person/product, logo PNG, venue or product photos) — same as §5 Step B.
+- Name the **style playbook** that fits (event flyer, product ad, corporate… §14.C) and the
+  **subject treatment** (full colour / B&W with brand-colour accents / duotone / cut-out with stroke),
+  matched to the reference.
+- Show the **PSD LAYER PLAN** (§14.A) for the rebuild — the reference's finish re-done as real
+  Photoshop work (cut-out, overlap with the headline, haze matched to the light, stacked shadows,
+  grade, type effects).
+
 ### Step D — What you must NEVER copy from the reference
 Their logo, brand name, slogans, text, phone numbers, handles, websites, the real person's identity,
 and any trademarked characters or brand marks. Copy the **design**, not the **content**.
@@ -173,7 +183,7 @@ Use IMAGE 2 (the logo) exactly as provided — do not redraw, restyle or recolou
 [Use IMAGE 3 (my photo/product) exactly as provided as the hero — same face, same identity.]
 ```
 …then the full structured spec (every text in quotes, positions, colours with hex, the
-HUMAN-MADE block and ban list from §8).
+PHOTOSHOP FINISH block from the layer plan, the HUMAN-MADE block and ban list from §8).
 
 ### Step F — Self-check before you show it
 Run §11. Read every word letter by letter (phone numbers, prices, dates, names). Fix with a targeted
@@ -186,6 +196,10 @@ edit *before* the user has to ask.
 The user's workflow: they find an **inspiration thumbnail** they like, upload **their real camera
 photo**, and give the **video title, description and timestamps**. You turn that into a thumbnail
 (or a prompt they'll feed to ChatGPT together with the images).
+
+**No inspiration thumbnail?** Use the user's saved **channel recipe** (§14.E) if they have one,
+otherwise pick a style playbook (§14.C) and say which in one line. A worked example of the whole
+process: `examples/thumbnail-grit-case-study.md`.
 
 A thumbnail is not a flyer. It's seen for half a second at the size of a stamp, next to the title,
 in a feed of competitors. Its only job: **make the click feel inevitable — honestly.**
@@ -204,12 +218,14 @@ EMOTION:     the one feeling the thumbnail should trigger (surprise, relief, cur
 ### Step B — Ask at least 6 questions + request assets (ALWAYS, in ONE message)
 Never skip this step in Thumbnail Mode, even if you think you have enough. Ask **at least 6**
 questions, numbered, each with **your suggested default** (so they can reply "ok" or "1 ok, 2 use B…").
-Choose the most useful from this bank — always include 1, 2, 3, 4 and 5:
+Choose the most useful from this bank — always include 1, 2, 3, 4, 5 and 6:
 
 1. **Placement check** — "YouTube long-form 16:9 (1280×720)? Will it also be used for Shorts, a
    community post or other platforms?" *(default: long-form only)*
-2. **Thumbnail text** — "Here are 3 text options (≤ 4 words, they complement the title instead of
-   repeating it): A "…" · B "…" · C "…" · or no text?" *(default: your best pick)*
+2. **Thumbnail style + text** — "Which style: **MINIMAL** (face + ≤ 4 huge words + one proof — wins
+   in crowded feeds) or **INFO-RICH** (logo + title + subtitle + a short feature list + proof — like
+   a product launch; see the Grit example)? Text options: A "…" · B "…" · C "…"" *(default: MINIMAL
+   for tutorials/stories, INFO-RICH for product/framework/tool launches; your best text pick)*
 3. **The one visual** — "The hero object/proof next to your face should be: [suggestion from the
    timestamps]. Do you have a real screenshot/photo of it? If it's a screenshot (dashboard, app,
    website, code): show it as a **flat card**, in a **browser window**, on a **laptop**, on a
@@ -219,8 +235,9 @@ Choose the most useful from this bank — always include 1, 2, 3, 4 and 5:
    *(default: use it as is)*
 5. **Inspiration — keep vs change** — "From the inspiration I'll keep [layout, text style, colour
    logic…] and change [X]. Anything you specifically love or hate in it?" *(default: as listed)*
-6. **Brand & series look** — "Channel colours / font / logo? Should this match your recent
-   thumbnails? (send 2–3 if yes)" *(default: palette from the inspiration, no logo)*
+6. **Brand & series look** — "Use your saved channel recipe [name]? Or: channel colours / font /
+   logo, and should this match your recent thumbnails? (send 2–3 if yes)" *(default: the saved
+   recipe if there is one; otherwise the inspiration's palette, no logo)*
 7. **Audience & niche** — "Who clicks this — beginners, developers, business owners…? What do
    competitor thumbnails for this topic look like?" *(default: from title)*
 8. **Honesty check** — "Is [the thing the thumbnail shows/claims] really in the video?" — never show
@@ -265,11 +282,15 @@ LIGHT:    matched to your photo: key from [side], [warm/neutral/cool], [soft/har
 BREAK:    one (e.g. object cropped by the frame edge / face overlapping text)
 NO:       ban list + HUMAN-MADE block (§8)
 ```
+Then the **PSD LAYER PLAN** (§14.A) — background + light pool, cut-out, retouch, motivated light,
+grade, elements with stacked shadows, logo/3D, type, finish.
 
 ### Step E — Thumbnail rules (non-negotiable)
-- **3 elements max:** face + text + one proof object. Fewer is better.
-- **Text ≤ 4 words**, huge (≥ 20% of frame height per line), one bold font, never repeats the title.
-  No text at all is a valid, often better, choice.
+- **MINIMAL style:** 3 elements max (face + text + one proof object); **text ≤ 4 words**, huge
+  (≥ 20% of frame height per line), one bold font, never repeats the title. No text is valid too.
+- **INFO-RICH style:** clear hierarchy — logo + title is the loudest text, subtitle second, the
+  information block (≤ 5 short rows) third, proof fourth; every row ≥ 4% of frame height; group the
+  information in one solid card; still one face, one light angle, one accent colour.
 - **Readable at 168×94 px.** Squint test: shrink it — can you still read the words and see the face?
 - **Face ≥ 30–40% of frame height**, eyes visible and sharp, one clear honest expression that matches
   the video's emotion. Don't exaggerate into a fake "shock face" unless that's genuinely the user's style.
@@ -298,8 +319,12 @@ features. Do not retouch, smooth, beautify, reshape or regenerate my face. Only 
 and relight the background to match the light already on my face.
 [Use IMAGE 3 (real screenshot / product photo) exactly as provided as the proof element.]
 ```
-…then §9's structure with the HUMAN-MADE block. Then give **2 variations** (A/B: different text, or
-different expression photo, or different background colour — ONE change each).
+…then §9's structure with the PHOTOSHOP FINISH and HUMAN-MADE blocks. Then give **2 variations**
+(A/B: different text, or different expression photo, or different background colour — ONE change each).
+
+**Before you hand it over, check the lessons from real tests:** nothing important in the bottom-right
+corner (duration stamp) · rim light on one side only, never a halo over the head · arrows point at the
+thing they mean · every screenshot character/number exact · the face is the user's.
 
 ---
 
@@ -326,7 +351,8 @@ NO (ban list)
 ```
 Layout archetypes: Split · Headline-top/hero-bottom · Full-bleed photo with text in the calm area ·
 Typographic poster · Centred hero with huge space (premium only) · Educational carousel slide.
-Then generate (§3) / write the prompt (§9).
+Then pick a style playbook (§14.C), show the **PSD LAYER PLAN** (§14.A), and generate (§3) / write
+the prompt (§9).
 
 ---
 
@@ -911,7 +937,14 @@ PHOTOSHOP FINISH (as if composited by a senior Photoshop designer):
 Restraint rule: **each effect is subtle and has a reason**. If you can't say why a layer is there,
 delete it.
 
-### E. Hand it over as a PSD recipe (when asked, or when the model keeps failing)
+### E. Save winners as recipes (series consistency)
+When the user approves a result ("this is good", "publish as is"), offer in one line to save its look
+as a **style recipe** — style only, never subject: background, palette (hex), type, layout zones,
+subject treatment, light, layer styles, finish, and a "Never:" line. Give it a short name (e.g.
+DEV TECH DARK). When the user later says "use my recipe [name]", apply it verbatim and only change
+the content. Recipes live in `recipes/README.md`.
+
+### F. Hand it over as a PSD recipe (when asked, or when the model keeps failing)
 Turn the LAYER PLAN into numbered Photoshop/Photopea steps the user can follow (tool → setting →
 value), so they can build it by hand, or generate only the parts AI is good at (background, props)
 and composite the real photo, logo, text and screenshots themselves. Full guide:

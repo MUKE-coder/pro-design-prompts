@@ -1,7 +1,7 @@
 # Template: YouTube Thumbnail (inspiration + your real photo + video info)
 
 Attach the images **in this order**:
-1. the **inspiration thumbnail** you want yours to look like
+1. the **inspiration thumbnail** you want yours to look like *(optional if you use a saved channel recipe)*
 2. **your real photo** (full-resolution camera/phone photo — not a screenshot)
 3. *(optional)* real **screenshots / product photo** of what the video shows
 4. *(optional)* your channel **logo** and/or 2–3 of your **recent thumbnails**
@@ -23,6 +23,8 @@ Timestamps:
 [00:00 ...]
 [...]
 
+Style: [MINIMAL / INFO-RICH / you choose]
+Channel recipe: [e.g. DEV TECH DARK / none]
 Channel colours / font: [#hex, #hex / "use the inspiration's"]
 Must not include: [...]
 ```

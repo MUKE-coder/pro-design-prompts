@@ -55,3 +55,21 @@ top-down natural-light flat-lay, real textures, lots of air. Never: glossy look,
 Black #0A0A0A, gold #C9A24B thin details, ivory didone serif headline with wide tracking,
 single product under a hard top spotlight with deep shadows, 50% empty space.
 Never: glitter, bokeh, gold sparkles, chrome text.
+
+---
+
+## Channel recipes (saved from approved work)
+
+### DEV TECH DARK — YouTube dev/framework thumbnails (INFO-RICH)
+From the Grit Framework thumbnail ([case study](../examples/thumbnail-grit-case-study.md)).
+Deep navy #0B1220 backdrop with a faint #1E3A6E blueprint grid (~8%, fading to edges, slightly
+defocused) and a soft light pool behind the presenter. Presenter = real photo, cut out, right 45%,
+face ~35% of height, dodge & burn, pores kept, one soft #3DB5F5 rim light on the outer edge only.
+Real logo as a matte 3D tile top-left (~30% height) with stacked shadows. White extra-bold geometric
+sans title (Poppins ExtraBold, ~17% height) with a subtle navy extrusion; subtitle white + #3DB5F5
+accent. Information in one solid #111827 card with #24324F hairlines, flat #3DB5F5 line icons, white
+labels, #3DB5F5 statuses. Proof = real terminal re-typeset in a #0D1117 window with traffic-light
+dots, tilted in perspective, overlapping the presenter. One global light from the upper left, all
+shadows down-right, stacked (contact + soft). Finish: 12% gradient map, custom vignette, focus on
+face, fine grain. Never: frosted glass, all-around halos, sparkles, bokeh, laptop/hands not in the
+photo, text in the bottom-right corner.
