@@ -58,7 +58,12 @@ When the user supplies a real camera photo of themselves:
 - When the generator keeps drifting the face, **composite by hand**: generate the background and
   text area, then place the real cut-out in Photoshop / Photopea / Canva / Figma.
 
-## 4. The deletion pass
+## 4. Effects are fine — when they're Photoshop, not AI
+Glow, rim light, 3D logos and strokes are real designer tools. They read as AI only when they have no
+source, point in different directions, or are on everything. Rules and techniques:
+[11-photoshop-master.md](11-photoshop-master.md).
+
+## 4b. The deletion pass
 
 After every generation, name the **3 things that most say "AI made this"**, remove them, and
 replace them with empty space or a real asset. Repeat until nothing jumps out.
@@ -74,10 +79,11 @@ Send the old image and say **FIX IT** — see [templates/fix-ai-slop.md](../temp
 HUMAN-MADE FINISH: This must look like a real photograph taken with a real camera and laid out by a
 professional human designer — not an AI image. One consistent light direction across the whole
 image; background lighting matched to the light already on the person. Natural skin with visible
-pores and texture, no retouching or smoothing. Natural colour, normal saturation, subtle natural
-grain, realistic lens depth of field. Flat, solid design elements only — no frosted glass, no glow,
-no neon outlines, no gradients on text, no lens flare, no sparkles, no generic icons, no decorative
-labels. Only the exact text listed; every word spelled exactly.
+pores and texture, no beauty retouching or skin smoothing (realistic pro cleanup only). Natural colour, normal saturation, subtle natural
+grain, realistic lens depth of field. Finished like a Photoshop composite: clean masked edges,
+dodge & burn, one global light angle for every shadow, highlight and layer style; any glow or rim
+light has a visible source. No frosted glass, no glow without a source, no lens flare, no sparkles,
+no generic icons, no decorative labels. Only the exact text listed; every word spelled exactly.
 ```
 
 > **Note on scope:** these rules are about how the image *looks* — design and photographic

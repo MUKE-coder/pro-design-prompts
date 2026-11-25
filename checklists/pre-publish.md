@@ -46,6 +46,13 @@
 - [ ] Contact shadows, clean hair edges, matching grain and sharpness
 - [ ] The 3 most "AI" things named and removed
 
+## Photoshop craft
+- [ ] Cut-out edges clean (hair refined, no colour fringe)
+- [ ] One global light angle for every shadow, bevel and highlight
+- [ ] Every glow / rim light has a source; used on 1–2 elements only
+- [ ] Subject graded to match the scene (black level, temperature, grain)
+- [ ] Depth: overlap, stacked shadows, defocus on far layers
+
 ## YouTube thumbnail
 - [ ] ≤ 3 elements, ≤ 4 words, text doesn't repeat the title
 - [ ] Readable at 168×94 (squint test); face 30–40% of height, eyes sharp

@@ -42,7 +42,8 @@ The AI runs this as **Thumbnail Mode** ([AI.md §5](../AI.md)). The copy-paste m
 5. **Squint test** — shrink it to 168×94. Can you read it and see your face? If not, cut.
 6. **Stand out** — look at the other thumbnails for your topic. If they're all dark blue, don't be.
 7. **Honest** — everything shown is in the video. Curiosity yes, lies no.
-8. **Human-made** — your real face untouched, light matched to your photo, no glow/glass/sparkles
+8. **Human-made** — your real face untouched, light matched to your photo, no glass/sparkles, any glow or rim light motivated
+   and matched ([docs/11](11-photoshop-master.md))
    ([docs/09](09-human-made-look.md)).
 
 ## Title + thumbnail work as a pair

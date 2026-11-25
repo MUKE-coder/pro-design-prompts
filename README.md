@@ -10,6 +10,13 @@ not generated.
 
 ---
 
+## Think like a Photoshop master
+
+Every design starts as a **PSD layer plan** — cut-out, realistic retouch, motivated light, stacked
+shadows on one light angle, colour grade, layer styles, finishing — and the image model is briefed to
+render that finished composite. Real assets + Photoshop craft = no AI look.
+Guide: **[docs/11-photoshop-master.md](docs/11-photoshop-master.md)**.
+
 ## The six principles
 
 | # | Principle | In one line |
@@ -108,6 +115,7 @@ docs/
   08-reference-mode.md            ← reference image → your brand, with a full worked example
   09-human-made-look.md           ← why people can tell it's AI, and the rules that stop it
   10-thumbnails.md                ← YouTube thumbnail workflow, specs, rules, photo tips
+  11-photoshop-master.md          ← PSD layer plan, technique library, style playbooks, recipes
 models/                           ← GPT Image, Gemini/Nano Banana, Midjourney, Ideogram/Flux
 templates/                        ← fix-ai-slop, youtube-thumbnail, from-reference (start here), product ad, event flyer,
                                     business promo, carousel, infographic

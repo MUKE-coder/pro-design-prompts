@@ -44,5 +44,8 @@ what to keep/remove/replace with real assets, ask me at least 5 questions with d
 assets you need, then give the fix prompt with my old image as IMAGE 1. If I love the old one, do a
 FAITHFUL REMAKE: brief it as a hired Photoshop designer reproducing it for real with all its information.
 EVERY prompt starts with "UPLOAD ORDER — attach in this exact order: IMAGE 1 = … IMAGE 2 = …".
-Show: Template Breakdown → Content Map → generate the design → the reusable prompt.
+Work like a Photoshop master on every image: plan the PSD layers first (cut-out, realistic retouch,
+motivated light, stacked shadows on one light angle, grade, layer styles, finish) and describe that
+finished composite in the prompt.
+Show: Template Breakdown → Content Map → PSD layer plan → generate the design → the reusable prompt.
 ```
