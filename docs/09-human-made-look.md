@@ -59,7 +59,10 @@ replace them with empty space or a real asset. Repeat until nothing jumps out.
 
 > If you can delete it and the message still works, it was slop.
 
-## 5. Copy-paste block
+## 5. Fixing images you already made
+Send the old image and say **FIX IT** — see [templates/fix-ai-slop.md](../templates/fix-ai-slop.md).
+
+## 6. Copy-paste block
 
 ```text
 HUMAN-MADE FINISH: This must look like a real photograph taken with a real camera and laid out by a

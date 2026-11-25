@@ -32,7 +32,7 @@ Must not include: [...]
 2. It asks you **at least 6 questions**, each with a suggested default, plus an **Assets I Need** list
    (better photo, screenshots, logo, recent thumbnails…). Reply `ok`, or e.g. `1 ok, 2 use B, 4 sending new photo`.
 3. It breaks down the inspiration, shows **Thumbnail Decisions**, then gives you the prompt with an
-   **"Attach in this order"** list.
+   **UPLOAD ORDER** block at the top (which image is IMAGE 1, 2, 3…).
 4. Paste that prompt into ChatGPT (or Gemini) with the images in that order.
 
 ---

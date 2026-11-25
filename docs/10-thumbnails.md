@@ -17,7 +17,7 @@ The AI runs this as **Thumbnail Mode** ([AI.md §5](../AI.md)). The copy-paste m
 3. VIDEO INFO    title, description, timestamps
 4. SEND          AI.md link + images + info  →  AI asks ≥ 6 questions + asks for assets
 5. ANSWER        reply "ok" to the defaults or change what you want; send extra assets
-6. GET           Video Read → Breakdown → Decisions → the prompt (+ "attach in this order")
+6. GET           Video Read → Breakdown → Decisions → the prompt (starts with the UPLOAD ORDER)
 7. GENERATE      paste the prompt into ChatGPT with the images in that order
 8. REVIEW        deletion pass + squint test → one fix at a time
 ```

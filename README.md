@@ -47,6 +47,20 @@ The AI reads your video, asks **at least 6 questions** (with defaults — reply 
 extra assets it needs, then gives you the prompt plus the order to attach the images in ChatGPT.
 Full message: **[templates/youtube-thumbnail.md](templates/youtube-thumbnail.md)**.
 
+### Fix an old AI-looking image
+Attach the old thumbnail/flyer and send:
+```text
+Read and follow: https://raw.githubusercontent.com/MUKE-coder/pro-design-prompts/main/AI.md
+
+FIX IT — Image 1 is my old design.
+```
+You get a **Slop Diagnosis** (score, every tell and where it is), a keep/remove/replace plan, questions
+plus the real assets to send, then a fix prompt that opens with the **UPLOAD ORDER** — your old image
+is always IMAGE 1. Full guide: **[templates/fix-ai-slop.md](templates/fix-ai-slop.md)**.
+
+> Every prompt this repo produces starts with an **UPLOAD ORDER** block, so you always know which
+> image to attach first, second, third.
+
 ### Flyer, banner, ad or social post
 
 In ChatGPT or Gemini, attach **(1) a reference design you like** and **(2) your logo**, then send:
@@ -95,7 +109,7 @@ docs/
   09-human-made-look.md           ← why people can tell it's AI, and the rules that stop it
   10-thumbnails.md                ← YouTube thumbnail workflow, specs, rules, photo tips
 models/                           ← GPT Image, Gemini/Nano Banana, Midjourney, Ideogram/Flux
-templates/                        ← youtube-thumbnail, from-reference (start here), product ad, event flyer,
+templates/                        ← fix-ai-slop, youtube-thumbnail, from-reference (start here), product ad, event flyer,
                                     business promo, carousel, infographic
 examples/slop-vs-pro.md           ← 8 bad prompts rewritten as pro prompts (incl. a thumbnail)
 recipes/                          ← 10 reusable style recipes (Hot Sale, Worship Night, …)

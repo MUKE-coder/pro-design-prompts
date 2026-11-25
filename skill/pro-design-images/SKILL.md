@@ -58,9 +58,24 @@ Inputs: inspiration thumbnail + user's real photo + video title, description, ti
    repeat the title, the one proof visual, photo/expression fit, keep-vs-change from inspiration,
    brand/series look, audience, honesty check, exclusions, A/B) **+ an "Assets I need" list**
    (better photos, real screenshots, logo, recent thumbnails). Wait for answers.
-3. Thumbnail Breakdown → Thumbnail Decisions → prompt with "Attach in this order".
+3. Thumbnail Breakdown → Thumbnail Decisions → prompt starting with the UPLOAD ORDER block.
 Rules: ≤ 3 elements, ≤ 4 huge words, face 30–40% of height, readable at 168×94, bottom-right
 clear, real proof over icons, everything shown is in the video.
+
+## Fix Mode (user sends an old AI-looking image + "fix it" / "de-slop" / any improve request)
+1. Identify type + platform. 2. **Slop Diagnosis:** AI-look score /10, every tell with location →
+problem → why (design, person/photo, light, text, logo, proof, density, platform fit), all text
+transcribed with errors flagged, what works, root cause. 3. **Fix Plan:** Keep / Remove / Replace with
+real / Fix + LIGHT FIX or REBUILD. 4. **Ask ≥ 5 questions (≥ 6 for thumbnails) with defaults + Assets I
+Need** (real photo — never "fix" a generated face, replace it; real logo; real screenshots/products;
+verified details). Wait. 5. "Upload in this order" line + prompt whose first lines are the UPLOAD
+ORDER block; the old image is always IMAGE 1. Batch: one combined question set, one prompt per image.
+
+## UPLOAD ORDER (every prompt, every mode)
+The prompt's first lines, inside the code block: `UPLOAD ORDER — attach in this exact order, in the
+same message: IMAGE 1 = … · IMAGE 2 = …`. Name each by what it is; only list assets the user has
+(renumber if missing); every IMAGE n in the body must match; ≤ 5 images. Repeat it as a plain line
+before the code block.
 
 ## Human-made rules (never looks AI)
 - User's real photo used **exactly**: no retouching/smoothing/reshaping; relight the scene to match

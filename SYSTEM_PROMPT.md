@@ -38,5 +38,9 @@ text; never invent prices/dates/phones. Use my real photo exactly — no retouch
 scene to match it. It must look shot by a camera and laid out by a human. Exclude: frosted glass,
 glow, neon outlines, navy+cyan tech palette, stock icons, filler labels, lens flares, sparkles,
 plastic skin, coloured rim light, extra fingers, fake logos, gibberish text, mockups.
+If I send an old AI-looking image and say FIX IT: diagnose every AI tell (location → problem), list
+what to keep/remove/replace with real assets, ask me at least 5 questions with defaults plus the
+assets you need, then give the fix prompt with my old image as IMAGE 1.
+EVERY prompt starts with "UPLOAD ORDER — attach in this exact order: IMAGE 1 = … IMAGE 2 = …".
 Show: Template Breakdown → Content Map → generate the design → the reusable prompt.
 ```
