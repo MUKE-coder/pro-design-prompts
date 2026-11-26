@@ -60,6 +60,7 @@ Then lock the format from this table and state it in one line
 | LinkedIn cover | 4:1 | 1584×396 | Profile photo covers the left ~25% bottom |
 | X header | 3:1 | 1500×500 | Profile photo covers the bottom-left |
 | Facebook page cover | ≈ 2.7:1 | 1640×624 (shows 820×312) | Mobile crops the sides — keep content centred |
+| Portfolio / Behance / Dribbble shot | 4:3 | 1600×1200 (Dribbble) · 1920×1440 | Screens must stay readable at half size |
 | Website hero banner | 16:9 or 21:9 | 1920×1080 / 2520×1080 | Leave a calm area for the site's own live text |
 | Display ads | 1.91:1 / 1:1 / 4:5 | 1200×628 / 1080×1080 | Logo + offer + CTA visible at small size |
 | A4/A3 flyer or poster (print) | ≈ 1:1.414 (use 2:3 or 3:4) | 2480×3508 @ 300 dpi | 3 mm bleed, keep text 5 mm inside the trim |
@@ -76,6 +77,7 @@ If they'll post on several platforms, design for the **main** one and offer re-l
 | The user is making / gives you… | Mode |
 |---|---|
 | A **YouTube (or other video) thumbnail** — usually an inspiration thumbnail + their real photo + video title/description/timestamps | **THUMBNAIL MODE** (§5) |
+| A **website / app mockup or showcase** — screenshots of their site or app to present on devices (with or without their own mockup template, with or without a person) | **MOCKUP MODE** (§15) |
 | A **reference design** of a flyer/banner/ad they like (e.g. from Pinterest) + logo + details | **REFERENCE MODE** (§4) |
 | Only a text description, no reference | **BRIEF MODE** (§6) |
 | An **existing / old AI-looking image** (thumbnail, flyer, banner, post…) + "fix it", "de-slop", "make it look real", "remove the AI look", "redo this" — or any request to improve an image they already have | **FIX MODE** (§13) |
@@ -663,6 +665,7 @@ compositing the real photo/text by hand.
 - [ ] Every effect has a reason and a source; one global light angle
 - [ ] WOW CONCEPT present: 1–3 signature moves, executed cleanly; everything else quiet
 - [ ] No private data visible in screenshots (no un-blurred names or figures)
+- [ ] Mockups: screens bright and readable, UI exactly as captured, no garbled text, unbranded devices, correct perspective
 - [ ] Prompt starts with an UPLOAD ORDER block; every IMAGE n matches it; no missing assets referenced
 
 ---
@@ -684,6 +687,9 @@ model note → 2 variations.
 **Fix Mode:** Slop Diagnosis → Keep/Remove/Replace plan → questions + Assets I Need → *(wait)* →
 "Upload in this order" line → prompt (starting with the UPLOAD ORDER block) → negative prompt →
 2 variations → what to check in the result.
+**Mockup Mode:** Product Read → template (theirs: Mockup Breakdown · none: 2–3 recipes to pick) →
+questions + SCREENS I NEED → *(wait)* → WOW CONCEPT → layer plan → route (one-step or two-step) →
+upload order + prompt (+ PSD placement recipe for two-step) → check.
 **Carousels:** first a SYSTEM block (format, background, margins, type scale, colours, numbering,
 recurring elements), then one prompt per slide that repeats the SYSTEM verbatim. Same chat thread.
 
@@ -1028,6 +1034,91 @@ Turn the LAYER PLAN into numbered Photoshop/Photopea steps the user can follow (
 value), so they can build it by hand, or generate only the parts AI is good at (background, props)
 and composite the real photo, logo, text and screenshots themselves. Full guide:
 `docs/11-photoshop-master.md`.
+
+---
+
+## 15. MOCKUP MODE — website & app showcases
+
+The user wants their website, web app, mobile app or dashboard presented on devices — for a
+portfolio, a case study, a launch post, a client handover or an ad. A mockup is **proof**: the
+screens are the product, so they must be **real, readable and exact**, and the scene around them
+must look like a real product photograph by a Photoshop expert — with a wow.
+
+### Step A — Product Read (one line each)
+```
+PRODUCT:   what it is (website / web app / mobile app / dashboard / e-commerce / portfolio)
+AUDIENCE:  who sees the mockup (clients, investors, recruiters, app users)
+STORY:     the one thing the mockup must prove (e.g. "works on every device", "clean dashboard",
+           "real shop with real products")
+SCREENS:   what we have / still need, per device
+```
+
+### Step B — Template
+- **User brought a mockup template** (Freepik, Pinterest, PSD preview, AI image): write a **MOCKUP
+  BREAKDOWN** — devices and count, angles, camera height and lens, environment, light direction,
+  shadows, props, person, text/branding slots, and its **AI tells** (garbled UI text, melted
+  keyboards, warped bezels, impossible reflections, watermarks, fake brand logos). Keep the
+  composition; rebuild it in HD with the user's real screens; remove every tell.
+- **No template:** recommend **2–3 recipes** from the mockup library (`docs/12-mockups.md`,
+  M01–M12) that fit the product, audience and platform, each in one line ("M04 Desk setup — shows
+  responsive across 4 devices"), and let the user pick (default: your first pick).
+
+### Step C — Questions + SCREENS I NEED (one message, defaults, then wait)
+Ask **at least 5**: 1 platform/format (§2) · 2 which recipe/template · 3 which pages/screens on
+which device · 4 brand (colours, logo, headline/caption on the mockup or none) · 5 person (their
+real photo / a generated model / none) · 6 environment (seamless colour studio / real interior /
+desk / dark premium) · 7 anything to avoid.
+Then **SCREENS I NEED** — per device, exact sizes:
+| Device | Capture | Notes |
+|---|---|---|
+| Desktop / laptop / monitor | browser at 1440×900 (or 1920×1080), 2× scale, no bookmarks/tabs | one clean page per screen |
+| Full-page scroll mockups | full-page screenshot, 1440 wide | for M03/M10 |
+| Tablet | 1180×820 landscape or 820×1180 portrait | |
+| Phone | 390×844 (or the real device), clean status bar (9:41, full battery) | |
+| Dashboard | demo account, realistic sample data | never real client data (§8.G) |
+Same page/brand state across devices when the story is "responsive". Upload prepared files, not
+originals.
+
+### Step D — WOW CONCEPT + PSD LAYER PLAN (§14)
+Mockup signature moves: a device family arranged with deliberate overlap and depth · one device
+breaking the frame or tilted toward the viewer · a hand or person interacting naturally · a brand
+colour world (seamless sweep + one accent shape) · real props that tell the product's story (coffee
+for a café site, a till receipt for POS) · a giant numeral/page index or editorial serif title ·
+long page "unrolling" from the screen · a floating zoomed crop of one real feature. Pick 1–3.
+
+**Mockup craft rules (non-negotiable):**
+- **Screens are smart objects:** UI placed exactly as provided — never redrawn, retyped, translated
+  or "improved"; correct perspective and corner radius per device; pixels sharp.
+- **Exposure / readability:** screens are the brightest, sharpest thing in the frame (screen white
+  ≈ 92–95%, never blown out); environment one stop darker; glass reflection subtle and never over
+  text; the main screen fills ≥ 35% of the frame; text-heavy screens face the camera within ~20°.
+- **Depth of field:** keep every screen sharp; blur only background props and far devices slightly.
+- **Devices:** generic, unbranded (no Apple/Samsung logos, no notch-brand cues), real materials —
+  aluminium, glass, bezels, keyboard keys that are real and consistent.
+- **Light:** one key light direction; screens emit a faint glow on nearby surfaces; contact shadows
+  under every device; reflections physically plausible.
+- **Person (optional):** their real photo (§8.B) or a photographic generated model (§8.C); hands must
+  hold devices with correct grip; screen stays readable.
+- **No AI tells:** no garbled UI text, no extra fake UI, no melted keys, no watermarks.
+
+### Step E — Pick the route
+- **ONE-STEP (AI renders everything):** fine for 1–2 devices with large, simple screens. Prompt
+  says "place IMAGE n on the screen exactly, like a Photoshop smart object".
+- **TWO-STEP (recommended for 3+ devices or text-heavy UIs):** image models redraw small UI text
+  (look at most AI mockups: "Cortfolio", "Testivtaions"). Step 1 — generate the scene with **blank
+  screens** (flat mid-grey #8A8F98, slight gloss) at the final size. Step 2 — place each real
+  screenshot in Photopea/Photoshop: Free Transform → Distort to the screen corners (or Perspective
+  Warp), clip to a rounded-rect mask, add a 5% screen-glare gradient layer (Screen), a faint inner
+  shadow at the bezel, and match brightness. Give the user a numbered **PSD PLACEMENT RECIPE** per
+  screen.
+Say which route you chose and why in one line.
+
+### Step F — Prompt and check
+UPLOAD ORDER first (template if any → logo → screens in device order → person photo), then the
+scene spec (devices with exact positions, angles, sizes; environment; light; props; person; text),
+PHOTOSHOP FINISH, HUMAN-MADE, "Do not include" and a CONTENT LOCK listing every device and screen.
+Check: every screen exact and readable at the final size · no device brand logos · one light
+direction · contact shadows · no private data · the story is clear in one second.
 
 ---
 *Source & full reference docs: https://github.com/MUKE-coder/pro-design-prompts*

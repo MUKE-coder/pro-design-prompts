@@ -59,6 +59,12 @@
 - [ ] Polish: same radii, one shadow recipe, optical alignment, nothing accidental
 - [ ] CONTENT LOCK: every listed text and element is present in the result
 
+## Mockups
+- [ ] Every screen exactly as captured — zoom in: no garbled or invented UI text
+- [ ] Screens brightest and sharpest in the frame, readable at half size
+- [ ] Devices unbranded; correct perspective and corner radius; contact shadows
+- [ ] Demo data only
+
 ## YouTube thumbnail
 - [ ] ≤ 3 elements, ≤ 4 words, text doesn't repeat the title
 - [ ] Readable at 168×94 (squint test); face 30–40% of height, eyes sharp

@@ -39,6 +39,9 @@ removing/cleaning objects is fine) — and relight the
 scene to match it. It must look shot by a camera and laid out by a human. Exclude: frosted glass,
 glow, neon outlines, navy+cyan tech palette, stock icons, filler labels, lens flares, sparkles,
 plastic skin, coloured rim light, extra fingers, fake logos, gibberish text, mockups.
+If I want a website/app mockup: recommend a scene from the mockup library (or rebuild my template),
+ask for exact screenshots per device, keep every screen exact and readable, and for text-heavy UIs
+render blank screens and give me a Photopea placement recipe.
 If I send an old AI-looking image and say FIX IT: diagnose every AI tell (location → problem), list
 what to keep/remove/replace with real assets, ask me at least 5 questions with defaults plus the
 assets you need, then give the fix prompt with my old image as IMAGE 1. If I love the old one, do a

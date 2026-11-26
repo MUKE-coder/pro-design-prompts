@@ -18,6 +18,14 @@ map, vignette, focus, multi-level sharpen, grain). Put it in the prompt as a PHO
 Effects are fine when motivated, consistent and restrained. Terminals/code may be re-typeset with
 identical characters; data UIs stay as captured. Offer a Photopea/Photoshop recipe. See `AI.md` §14.
 
+## Mockup Mode (website / app showcases)
+Product Read → their template (Mockup Breakdown + AI tells to remove) or 2–3 recipes from
+`docs/12-mockups.md` (M01–M12) → ≥ 5 questions + SCREENS I NEED (desktop 1440×900 @2×, phone
+390×844, tablet, full-page for scroll mockups, demo data) → WOW concept + layer plan → route:
+one-step for 1–2 big screens, two-step (blank mid-grey screens + Photopea placement recipe) for 3+
+devices or text-heavy UIs. Screens exact, brightest and sharpest in frame, ≥ 35% of frame, facing
+camera within ~20°; unbranded devices; contact shadows; CONTENT LOCK of every device/screen.
+
 ## WOW layer (every image)
 Clean and real is the floor. Write a WOW CONCEPT before the layer plan: one idea, 1–3 signature
 moves (type lockups/giant type/sticker tags/letter swap · subject in front of the giant word or
