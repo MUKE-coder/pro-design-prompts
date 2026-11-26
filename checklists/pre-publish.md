@@ -60,7 +60,8 @@
 - [ ] CONTENT LOCK: every listed text and element is present in the result
 
 ## Mockups
-- [ ] Every screen exactly as captured — zoom in: no garbled or invented UI text
+- [ ] Every screen exactly as captured — zoom in and compare names, URLs, numbers, counts with the original
+- [ ] Screens shown below ~50% scale were placed two-step, not rendered by the model
 - [ ] Screens brightest and sharpest in the frame, readable at half size
 - [ ] Devices unbranded; correct perspective and corner radius; contact shadows
 - [ ] Demo data only

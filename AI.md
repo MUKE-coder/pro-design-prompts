@@ -1060,7 +1060,7 @@ SCREENS:   what we have / still need, per device
   keyboards, warped bezels, impossible reflections, watermarks, fake brand logos). Keep the
   composition; rebuild it in HD with the user's real screens; remove every tell.
 - **No template:** recommend **2–3 recipes** from the mockup library (`docs/12-mockups.md`,
-  M01–M12) that fit the product, audience and platform, each in one line ("M04 Desk setup — shows
+  M01–M15) that fit the product, audience and platform, each in one line ("M04 Desk setup — shows
   responsive across 4 devices"), and let the user pick (default: your first pick).
 
 ### Step C — Questions + SCREENS I NEED (one message, defaults, then wait)
@@ -1111,13 +1111,22 @@ long page "unrolling" from the screen · a floating zoomed crop of one real feat
   Warp), clip to a rounded-rect mask, add a 5% screen-glare gradient layer (Screen), a faint inner
   shadow at the bezel, and match brightness. Give the user a numbered **PSD PLACEMENT RECIPE** per
   screen.
+- **Scale rule (from testing):** a screen shown at **less than ~50% of its captured width** will be
+  retyped by the image model — names, URLs, star counts and figures come back changed (seen: a
+  13-project list shown at 33% returned invented URLs and wrong numbers). Such screens are
+  **always two-step**. One-step only for screens shown at ≥ 50% with large text.
+- **CODE COMPOSITE (if you can run code):** for flat or 2.5D layouts (cards, browser frames,
+  editorial showcases), compose the final image yourself from the real screenshots — exact pixels,
+  real shadows, perspective transforms — and use the image model only for photographic scenes
+  (rooms, hands, devices, people) rendered with blank screens. Then place the screens yourself.
 Say which route you chose and why in one line.
 
 ### Step F — Prompt and check
 UPLOAD ORDER first (template if any → logo → screens in device order → person photo), then the
 scene spec (devices with exact positions, angles, sizes; environment; light; props; person; text),
 PHOTOSHOP FINISH, HUMAN-MADE, "Do not include" and a CONTENT LOCK listing every device and screen.
-Check: every screen exact and readable at the final size · no device brand logos · one light
+Check: zoom in and compare every name, URL, number and count on every screen with the original
+screenshot · every screen exact and readable at the final size · no device brand logos · one light
 direction · contact shadows · no private data · the story is clear in one second.
 
 ---

@@ -76,7 +76,7 @@ is always IMAGE 1. Full guide: **[templates/fix-ai-slop.md](templates/fix-ai-slo
 
 ### Website / app mockup showcase
 Attach your real screenshots (and your own mockup template if you have one) and say
-`Making: website mockup showcase`. No template? The AI suggests recipes from a library of 12
+`Making: website mockup showcase`. No template? The AI suggests recipes from a library of 15
 (device trio, hand-held phone, desk setup, floating page grid, editorial showcase, person + devices…).
 Screens stay exact and readable; for text-heavy UIs it renders blank screens and gives you a
 Photopea placement recipe. Guide: **[templates/mockup-showcase.md](templates/mockup-showcase.md)** ·
@@ -130,7 +130,7 @@ docs/
   09-human-made-look.md           ← why people can tell it's AI, and the rules that stop it
   10-thumbnails.md                ← YouTube thumbnail workflow, specs, rules, photo tips
   11-photoshop-master.md          ← PSD layer plan, technique library, style playbooks, recipes
-  12-mockups.md                   ← website/app mockup library M01–M12, capture guide, placement recipe
+  12-mockups.md                   ← website/app mockup library M01–M15, capture guide, placement recipe
 models/                           ← GPT Image, Gemini/Nano Banana, Midjourney, Ideogram/Flux
 templates/                        ← mockup-showcase, fix-ai-slop, youtube-thumbnail, from-reference (start here), product ad, event flyer,
                                     business promo, carousel, infographic

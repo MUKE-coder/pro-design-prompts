@@ -24,7 +24,7 @@ Brand: [colours, logo attached, any caption or headline on the mockup]
 ## What happens
 1. **Product Read** — what it is, who sees it, the one thing to prove, which screens are missing.
 2. **Template** — your template broken down (devices, angles, light, AI tells to remove), or 2–3
-   recipes from the library (M01–M12) to pick from.
+   recipes from the library (M01–M15) to pick from.
 3. **Questions + SCREENS I NEED** — exact capture sizes per device. Reply `ok` or change things.
 4. **WOW concept + Photoshop layer plan**, and the **route**:
    - *one-step* — the AI renders the screens too (1–2 big, simple screens);

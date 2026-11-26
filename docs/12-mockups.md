@@ -1,10 +1,13 @@
-# Website & App Mockups: The Library (M01–M12)
+# Website & App Mockups: The Library (M01–M15)
 
 A mockup is **proof**. The screens *are* the product, so they must be real, readable and exact.
 The scene around them must look like a real product photograph finished by a Photoshop expert,
 with a wow. The rules the AI follows are in [AI.md §15](../AI.md); this page is the template
 library it picks from when you don't bring your own.
 
+> M13–M15 were added from clean, real Dribbble shots: notice how sharp and exact their screens are — that
+> is the bar for every recipe.
+>
 > These are **written scene recipes**, not image files. The look of each one is described precisely
 > enough that an image model can render it in HD with your real screens. Stock mockup previews are
 > usually low-res, watermarked or AI-generated, so none are copied into this repo.
@@ -142,18 +145,61 @@ product being sold).
 **Wow:** a real human scale next to the product; brand world in clothes and colours.
 **Route:** two-step for screens; person can be generated with the scene.
 
+### M13 — Browser on Wallpaper (Dribbble shot)
+**Best for:** landing pages, SaaS hero sections, Dribbble/Behance · **Screens:** one desktop page (1440 wide)
+**Scene:** a clean, generic browser window (traffic-light dots, sidebar and back/forward icons, a
+centred address bar with the site's **real URL**, share/new-tab icons) straight-on, centred, about
+83% of the width, its bottom edge cropped slightly by the frame or sitting just above it. Behind it, an
+abstract wallpaper of large, soft, flowing colour waves built from the product's palette (e.g.
+magenta → violet → indigo), like a desktop background.
+**Light & world:** the browser casts a soft, wide shadow on the wallpaper; the page is crisp and
+evenly lit; the wallpaper is out of focus slightly at the edges.
+**Wow:** a vivid, ownable colour world framing a calm, perfectly sharp UI.
+**Route:** two-step or code composite (flat browser, exact page) — the wallpaper can be generated.
+Use an original wave wallpaper, never a copy of an operating-system wallpaper.
+
+### M14 — Laptop Front-On, Dark Gradient
+**Best for:** product launches, hero images, ads · **Screens:** one desktop page
+**Scene:** a generic modern laptop, perfectly front-on at eye level, the screen filling about 74% of the
+width; thin black bezels, a small webcam, slim aluminium base visible at the bottom; **no brand logo**.
+Background: a dark, rich gradient in the brand's deep colour (e.g. midnight purple) with one or two
+very soft diagonal light sweeps.
+**Light & world:** soft top light; a subtle highlight along the base edge; the screen is the brightest
+thing in the frame; faint reflection of the screen glow on the base.
+**Wow:** cinematic contrast — the bright page glowing out of a dark world.
+**Route:** two-step (blank screen, then place the page with Distort) or one-step only if the hero text is big.
+
+### M15 — Macro Close-Up (cropped browser)
+**Best for:** showing detail and craft: typography, buttons, dashboards · **Screens:** one desktop page at 2× or 3×
+**Scene:** the same generic browser window, scaled up so it runs off the right and bottom edges of
+the frame, starting about 6% from the left and 8% from the top; we see the address bar, the nav and
+the hero large and razor-sharp. A sliver of the colourful wallpaper shows at the left and top edges,
+softly blurred (shallow depth of field).
+**Light & world:** soft window shadow on the wallpaper; the page perfectly sharp; the blur only on the
+wallpaper.
+**Wow:** "look how clean this is up close" — detail as the hero. Pairs with M13 as a two-shot set.
+**Route:** two-step or code composite with a 2×/3× screenshot (it must be sharp at this size).
+
 ---
 
 ## Which recipe for what
 | Product | First picks |
 |---|---|
-| Responsive website / landing page | M01, M04, M11 |
+| Responsive website / landing page | M01, M04, M11, M13 |
+| SaaS / landing hero (Dribbble set) | M13 + M15, M14 |
 | Long landing page | M03, M10 |
 | Multi-page site / template | M05, M09 |
 | Mobile app | M02, M08 |
 | SaaS (dashboard + app) | M06, M07 |
 | E-commerce / fashion / personal brand | M12, M01 |
-| Portfolio / Behance | M09, M05, M07 |
+| Portfolio / Behance | M09, M05, M07, M13 |
+| Product launch / ad | M14, M02, M06 |
+
+## The scale rule
+A screen shown at **less than ~50% of its captured width** gets retyped by image models: names,
+URLs and numbers come back wrong. Those screens are always two-step (blank screens in the scene,
+real screenshots placed by hand or by an AI that can run code). Proof beats prettiness: a mockup with
+wrong star counts is worse than no mockup.
 
 ## Two-step placement recipe (Photopea / Photoshop)
 For each screen in the generated scene:
